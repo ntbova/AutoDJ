@@ -8,6 +8,7 @@
     <meta name="description" content="AutoDJ demo to showcase functionality. 
     does not yet contain and production code.">
 </head>
+<script src="getPlaylist.js"></script>
 <body>
 	<div id="header">
 		<img src="http://www.scdn.co/i/_global/open-graph-default.png" width="400">
@@ -17,12 +18,12 @@
 
 	<div id="input">
 		<h4>Type in a Topic:</h4>
-		<input type="text" name="Topic"><br>
-		<button type="button">Set Topic</button>
+		<input type="text" name="Topic" id="topicName"><br>
+		<button type="button" id="setTopicButton">Set Topic</button>
 	</div>
 
 	<div id="spotify-player">
-		<iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+		<iframe id="player-frame" src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 	</div>
 </body>
 </html>
