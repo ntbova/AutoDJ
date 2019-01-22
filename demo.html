@@ -7,20 +7,26 @@
     <title>AutoDJ Demo</title>
     <meta name="description" content="AutoDJ demo to showcase functionality. 
     does not yet contain and production code.">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <script src="getPlaylist.js"></script>
 <body>
-	<div id="header">
-		<img src="http://www.scdn.co/i/_global/open-graph-default.png" width="400">
-		<h1>AutoDJ</h1>
+	<div id="mainpage" class="container">
+	<div class="row">
+		<div id="header" class="col-sm">
+			<img src="http://www.scdn.co/i/_global/open-graph-default.png" width="400">
+			<h1>AutoDJ</h1>
 
+		</div>
 	</div>
-
-	<div id="input">
-		<h4>Type in a Topic:</h4>
-		<input type="text" name="Topic" id="topicName"><br>
-		<button type="button" id="setTopicButton">Set Topic</button>
-	</div>
+	<div class="row">
+		<div id="input" class="col-sm">
+			<h4>Type in a Topic:</h4>
+			<input type="text" name="Topic" id="topicName"><br>
+			<button type="button" id="setTopicButton">Set Topic</button>
+		</div>
 
 	<div id="spotify-player">
 	</div>
