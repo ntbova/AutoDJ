@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+# TODO: take a JSON file make it an array of objects
 songs = []
 songs.append({
   'title': 'africa',
@@ -43,6 +44,8 @@ def lyrics_from_song_api_path(song_api_path):
 
 if __name__ == "__main__":
 
+  discover_objects = []
+
   for song in songs:
     search_url = base_url + "/search"
     params = {"q": song['title']}
@@ -55,4 +58,17 @@ if __name__ == "__main__":
         break
     if song_info:
       song_api_path = song_info["result"]["api_path"]
-      print(lyrics_from_song_api_path(song_api_path))
+
+      # add song['title'], song['artist'] and lyrics to discover json object
+      lyrics = lyrics_from_song_api_path(song_api_path)
+
+      object_for_discover = {
+        'title': song['title'],
+        'artist': song['artist'],
+        'lyrics': lyrics
+      }
+      discover_objects.append(object_for_discover)
+      print(lyrics)
+
+  # at this point we have an array of all titles, artists, and their lyrics
+  # export each one as a JSON file
