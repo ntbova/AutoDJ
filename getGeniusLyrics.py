@@ -1,28 +1,34 @@
 import requests
+import json
+import os.path
 from bs4 import BeautifulSoup
 
 # TODO: take a JSON file make it an array of objects
-songs = []
-songs.append({
-  'title': 'africa',
-  'artist': 'toto',
-})
-songs.append({
-  'title': 'stay',
-  'artist': 'post malone',
-})
-songs.append({
-  'title': 'fade into you',
-  'artist': 'mazzy star',
-})
-songs.append({
-  'title': 'landslide',
-  'artist': 'fleetwood mac',
-})
-songs.append({
-  'title': 'good vibrations',
-  'artist': 'the beach boys',
-})
+
+with open("data/billboard_data") as f:
+  songs = json.load(f)
+
+# songs = []
+# songs.append({
+#   'title': 'africa',
+#   'artist': 'toto',
+# })
+# songs.append({
+#   'title': 'stay',
+#   'artist': 'post malone',
+# })
+# songs.append({
+#   'title': 'fade into you',
+#   'artist': 'mazzy star',
+# })
+# songs.append({
+#   'title': 'landslide',
+#   'artist': 'fleetwood mac',
+# })
+# songs.append({
+#   'title': 'good vibrations',
+#   'artist': 'the beach boys',
+# })
 
 base_url = "http://api.genius.com"
 headers = {"Authorization": "Bearer pkrTfTFBg0uY-L4k2cAnuEXyFng81xyFV2ETvK-DwU-yUHp2ZCZ39d88mBtpypvn"}
@@ -44,31 +50,40 @@ def lyrics_from_song_api_path(song_api_path):
 
 if __name__ == "__main__":
 
-  discover_objects = []
+  # discover_objects = []
 
   for song in songs:
     search_url = base_url + "/search"
-    params = {"q": song['title']}
+    params = {"q": song['song']}
     response = requests.get(search_url, params=params, headers=headers)
-    json = response.json()
+    jsonR = response.json()
     song_info = None
-    for hit in json["response"]["hits"]:
+    for hit in jsonR["response"]["hits"]:
       if hit["result"]["primary_artist"]["name"].lower() == song['artist'].lower():
         song_info = hit
         break
     if song_info:
       song_api_path = song_info["result"]["api_path"]
 
-      # add song['title'], song['artist'] and lyrics to discover json object
+      # add song['song'], song['artist'] and lyrics to discover json object
       lyrics = lyrics_from_song_api_path(song_api_path)
 
       object_for_discover = {
-        'title': song['title'],
+        'song': song['song'],
         'artist': song['artist'],
         'lyrics': lyrics
       }
-      discover_objects.append(object_for_discover)
-      print(lyrics)
 
-  # at this point we have an array of all titles, artists, and their lyrics
+      title = song['song'].replace("/", "_")
+      title = title.replace("?","")
+      title = title.replace("\"","")
+      artist = song['artist'].replace("/", "_")
+
+      if not os.path.isfile("./lyrics/"+title+"_"+artist+".json"):
+        with open("./lyrics/"+title+"_"+artist+".json", 'w') as outfile:
+          json.dump(object_for_discover, outfile)
+        # discover_objects.append(object_for_discover)
+        print(song['song'] + ' has been written to ' + outfile.name)
+
+  # at this point we have an array of all songs, artists, and their lyrics
   # export each one as a JSON file
