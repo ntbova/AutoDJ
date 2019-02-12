@@ -1,6 +1,7 @@
 import os
+import urllib.parse
 
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, session
 
 
 def create_app(test_config=None):
@@ -26,7 +27,17 @@ def create_app(test_config=None):
 
     @app.route('/')
     def index():
-        return redirect(url_for('auth.login'))
+        access_token = session.get('access_token')
+        if access_token is None:
+            client_id = 'dee71a70880043d799fb3beeb6622a9d' # TODO: single point of control for this, ***also located in auth.py***
+            response_type = 'code'
+            redirect_uri = 'http://127.0.0.1:5000/auth/login' # TODO: single point of control for this, ***also located in auth.py***
+            scope = 'playlist-modify-public'
+            auth_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&response_type=' + response_type + '&redirect_uri=' + urllib.parse.quote(redirect_uri) + '&scope=' + urllib.parse.quote(scope)
+            return redirect(auth_url)
+        
+        # there is an access_token, user is logged in
+        return render_template('demo.html')
 
     from .views import auth
     app.register_blueprint(auth.bp)

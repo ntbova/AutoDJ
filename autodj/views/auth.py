@@ -1,4 +1,5 @@
 import functools
+import requests
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
@@ -9,6 +10,38 @@ bp = Blueprint('auth', __name__, url_prefix='/auth')
 
 @bp.route('/login', methods=('GET', 'POST'))
 def login():
+    if request.method == 'GET':
+        error = request.args.get('error') # if there is an error
+        # not sure if this is correct error handling
+        if error is not None:
+            flash(error)
+
+        code = request.args.get('code') # auth code that can be exchanged for access token
+        url = 'https://accounts.spotify.com/api/token'
+        grant_type = 'authorization_code'
+        redirect_uri = 'http://127.0.0.1:5000/auth/login'
+        client_id = 'dee71a70880043d799fb3beeb6622a9d' # not secure
+        client_secret = 'd1f58af1e702408082984a99ec18f5f6' # not secure
+
+        data = {
+            'code': code,
+            'grant_type': grant_type,
+            'redirect_uri': redirect_uri,
+            'client_id': client_id,
+            'client_secret': client_secret
+        }
+        response = requests.post(url, data=data).json()
+        access_token = response['access_token']
+        expires_in = response['expires_in']
+        refresh_token = response['refresh_token'] # can repeat steps above with this as 'code' to get new access token once expired
+
+        # not sure if this is right
+        session.clear()
+        session['access_token'] = access_token
+        session['expires_in'] = expires_in # should probs extrapolate this into a Date\
+        session['refresh_token'] = refresh_token
+        return redirect(url_for('index'))
+
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
