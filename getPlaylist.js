@@ -6,20 +6,7 @@ const sources = {
   'sad': 'https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DX7qK8ma5wgG1',
 }
 
-const client_id = 'dee71a70880043d799fb3beeb6622a9d';
-const response_type = 'code';
-const redirect_uri = 'https://localhost:5000/authenticate/';
-const scope = 'playlist-modify-public';
-const auth_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&response_type=' + response_type + '&redirect_uri=' 
-                    + encodeURIComponent(redirect_uri) + '&scope=' + encodeURIComponent(scope);
-
 window.onload = function() {
-  document.getElementById('loginButton').onclick = function() {
-    // request auth by redirect to spotify page
-    window.location.replace(auth_url);
-
-  }
-
   document.getElementById('setTopicButton').onclick = function() {
     const topic = document.getElementById('topicName').value;
     document.getElementById('topicName').value = '';
