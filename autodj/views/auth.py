@@ -1,8 +1,5 @@
 import functools
-<<<<<<< HEAD
 import requests
-=======
->>>>>>> 16015bad86ef09f343f05716e14a7c3b46fc88d0
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
