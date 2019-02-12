@@ -1,21 +1,26 @@
-const sources = {
-  'rain': 'https://open.spotify.com/embed/user/1224963539/playlist/2b2F19SPplHxbrDPBUN9XG',
-  'new york': 'https://open.spotify.com/embed/user/1224963539/playlist/3pS0p7Lrqu4DFMpFkKhUVp',
-  'places': 'https://open.spotify.com/embed/user/1224963539/playlist/36DfTg9bztkYD1DN91N3tk',
-  'happy': 'https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DXdPec7aLTmlC',
-  'sad': 'https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DX7qK8ma5wgG1',
-}
-
 window.onload = function() {
   document.getElementById('setTopicButton').onclick = function() {
     const topic = document.getElementById('topicName').value;
     document.getElementById('topicName').value = '';
-    
-    const iframeSrc = sources[topic.toLowerCase()];
-    if(iframeSrc === undefined) {
-      document.getElementById('spotify-player').innerHTML = '<h4>Unable to create a playlist for that topic. Sorry!</h4>'
-    } else {
-      document.getElementById('spotify-player').innerHTML = '<iframe id="player-frame" src='+iframeSrc+' width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>';
-    }
+
+    $.ajax({
+      url: "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/9bc54cbf-7b02-45a7-b221-87ff46c5de33/collections/956657c4-b81d-46c9-b192-53151075d828/query?version=2018-12-03&natural_language_query= " + encodeURI(topic),
+
+      beforeSend: function(xhr) {
+        xhr.setRequestHeader("Authorization", "Basic " + btoa("apikey:O8_fdyrpsmnK-COj_guUNFZ3jfCKh8hko1mraRCxeJ5f"));
+      },
+
+      success: function (data) {
+        //console.log(JSON.stringify(data));
+
+        var output = '';
+        for (i = 0; i < 10 && i < Object.keys(data.results).length; i++) {
+          output += '<br>' + data.results[i].song// + '</br>';
+        }
+
+        document.getElementById('spotify-player').innerHTML = output;
+      },
+
+    });
   }
 }
