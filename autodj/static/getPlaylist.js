@@ -18,6 +18,10 @@ window.onload = function() {
           output += '<br>' + data.results[i].song// + '</br>';
         }
 
+        if (Object.keys(data.results).length == 0) {
+          output = 'Sorry, no relevant results found.'
+        }
+
         document.getElementById('spotify-player').innerHTML = output;
       },
 
