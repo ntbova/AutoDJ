@@ -15,30 +15,25 @@ window.onload = function() {
         // console.log(JSON.stringify(data)); data.results: [{ song, artist, lyrics, other watson stuff }]
         // const songs = data.results.slice(0, 9);
         const songs = data.results;
-        $.post({
-          url: "http://127.0.0.1:5000/playlist/",
-          data: {
-            'songs': JSON.stringify(songs),
-            'topic': topic,
-          },
-          success: function (result) {
-            parsed = JSON.parse(result);
-            document.getElementById('playlist-text').innerText = "Here's your playlist:";
-            const iframeSrc = parsed.embed_link;
-            document.getElementById('player-frame').src = iframeSrc;
-          }
-        });
 
-        // var output = '';
-        // for (i = 0; i < 10 && i < Object.keys(data.results).length; i++) {
-        //   output += '<br>' + data.results[i].song// + '</br>';
-        // }
-
-        // if (Object.keys(data.results).length == 0) {
-        //   output = 'Sorry, no relevant results found.'
-        // }
-
-        // document.getElementById('spotify-player').innerHTML = output;
+        if (Object.keys(songs).length == 0) {
+          output = 'Sorry, no relevant results found.'
+          document.getElementById('spotify-player').innerHTML = output;
+        } else {
+          $.post({
+            url: "http://127.0.0.1:5000/playlist/",
+            data: {
+              'songs': JSON.stringify(songs),
+              'topic': topic,
+            },
+            success: function (result) {
+              parsed = JSON.parse(result);
+              document.getElementById('playlist-text').innerText = "Here's your playlist:";
+              const iframeSrc = parsed.embed_link;
+              document.getElementById('player-frame').src = iframeSrc;
+            }
+          });
+        }
       },
 
     });
