@@ -1,5 +1,6 @@
 import functools
 import requests
+import datetime
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
@@ -33,13 +34,24 @@ def login():
         response = requests.post(url, data=data).json()
         access_token = response['access_token']
         expires_in = response['expires_in']
+        expiration = datetime.datetime.now() + datetime.timedelta(seconds=expires_in)
         refresh_token = response['refresh_token'] # can repeat steps above with this as 'code' to get new access token once expired
 
         # not sure if this is right
         session.clear()
         session['access_token'] = access_token
+        session['expiration'] = expiration
         session['expires_in'] = expires_in # should probs extrapolate this into a Date\
         session['refresh_token'] = refresh_token
+
+        # also get relevant user info
+        user_url = "https://api.spotify.com/v1/me"
+        headers = {
+            'Authorization': 'Bearer ' + access_token,
+        }
+        user_response = requests.get(user_url, headers=headers).json()
+        session['user_id'] = user_response['id']
+
         return redirect(url_for('index'))
 
     if request.method == 'POST':

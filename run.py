@@ -6,4 +6,4 @@ if __name__ == '__main__':
         'TESTING': True,
         'SECRET_KEY': 'dev'
     })
-    app.run()
+    app.run(debug=True)
