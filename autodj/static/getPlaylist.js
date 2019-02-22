@@ -6,9 +6,9 @@ window.onload = function() {
     document.getElementById('playlist-text').innerText = 'Creating a playlist...'
 
     $.ajax({
-      url: "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/9bc54cbf-7b02-45a7-b221-87ff46c5de33/collections/956657c4-b81d-46c9-b192-53151075d828/query?version=2018-12-03&count=20&natural_language_query= " + encodeURI(topic),
+      url: "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22",
       beforeSend: function(xhr) {
-        xhr.setRequestHeader("Authorization", "Basic " + btoa("apikey:O8_fdyrpsmnK-COj_guUNFZ3jfCKh8hko1mraRCxeJ5f"));
+        xhr.setRequestHeader("Authorization", "Basic " + btoa("apikey:ltytYzYR-49NwvrxbnIDILPe_9fUqOn86MMEIYDhdgHB"));
       },
 
       success: function (data) {
