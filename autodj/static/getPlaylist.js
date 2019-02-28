@@ -34,7 +34,7 @@ window.onload = function() {
 
         if (Object.keys(songs).length == 0) {
           output = 'Sorry, no relevant results found.'
-          document.getElementById('spotify-player').innerHTML = output;
+          document.getElementById('playlist-text').innerHTML = output;
         } else {
           $.post({
             url: "http://127.0.0.1:5000/playlist/",
