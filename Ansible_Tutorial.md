@@ -2,7 +2,7 @@
 
 ### Ansible is an IT automation tool to automate things like cloud provisioning, configuration management, application deployment, and intra-service orchestration
 
-### **Language Used:** YAML, shell commands
+### **Language Used:** YAML
 
 ## **How it works**
 Ansible works by putting "modules" as they're called on any machine and executing the modules over SSH so no additional programs are required. This is useful because it means there are no servers, daemons, or databases required to automate what you want.
