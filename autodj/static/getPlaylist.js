@@ -3,12 +3,21 @@ window.onload = function() {
   var moods = ['Negative', 'Neutral', 'Positive'];
 
   var output = 1;
+  var activated = false;
+
+  // Function for slider changes.
   document.getElementById('myRange').oninput = function() {
     output = this.value;
 
     document.getElementById('sentiment').innerText = moods[output];
   }
 
+  // Function for slider checkbox changes.
+  document.getElementById('sliderBox').onclick = function() {
+    activated = this.checked;
+  }
+
+  // Function for button which uses Discovery query based on input text.
   document.getElementById('setTopicButton').onclick = function() {
     const topic = document.getElementById('topicName').value;
     document.getElementById('topicName').value = '';
@@ -19,7 +28,11 @@ window.onload = function() {
 
     document.getElementById('playlist-text').innerText = 'Creating a playlist...'
 
-    var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&filter=enriched_lyrics.sentiment.document.label%3A%3A\"" + moods[output].toLowerCase() + "\"&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22";
+    if (activated) {
+      var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&filter=enriched_lyrics.sentiment.document.label%3A%3A\"" + moods[output].toLowerCase() + "\"&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22";
+    } else {
+      var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22";
+    } 
 
     $.ajax({
       url: fullURL,

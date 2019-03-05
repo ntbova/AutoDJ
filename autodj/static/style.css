@@ -10,8 +10,22 @@ body {
     margin: 15px;
 }
 
+.checkboxcontainer {
+  width: 10%;
+  float: left;
+  display: inline-block;
+}
+
 .slidecontainer {
-  width: 100%; /* Width of the outside container */
+  width: 70%; /* Width of the outside container */
+  display: inline-block;
+}
+
+.sentiment {
+  width: 15%;
+  float: right;
+  display: inline-block;
+  margin-left: 5px;
 }
 
 /* The slider itself */

@@ -30,10 +30,13 @@
 			<button class="btn" type="button" id="setTopicButton" style="float: left;">Set Topic</button><br><br>
 			<br>
 			<h4>Mood of songs:</h4>
-			<div style="text-align: center" id="sentiment">Neutral</div>
+			<div class="checkboxcontainer">
+				<input type="checkbox" name="sliderActivate" value="1" id="sliderBox">
+			</div>
 			<div class="slidecontainer">
   				<input type="range" min="0" max="2" value="1" class="slider" id="myRange">
 			</div>
+			<div class="sentiment" id="sentiment">Neutral</div>
 		</div>
 
 	<div style="text-align: center" class="col-sm-8" id="spotify-player">
