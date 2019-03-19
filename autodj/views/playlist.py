@@ -27,6 +27,7 @@ def playlist():
 		"Content-Type": "application/json"
 	}
 	playlist_response =  requests.post(playlist_url, data=json.dumps(data), headers=headers).json()
+	print(playlist_response)
 	playlist_id = playlist_response['id']
 
 	tracks_to_add = []
