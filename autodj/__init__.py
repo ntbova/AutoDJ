@@ -24,7 +24,7 @@ def create_app(test_config=None):
 
     @app.route('/hello')
     def hello():
-        return 'Hello, World!'
+        return session.get('refresh_token')
 
     @app.route('/')
     def index():
@@ -37,7 +37,7 @@ def create_app(test_config=None):
             scope = 'playlist-modify-public'
             auth_url = 'https://accounts.spotify.com/authorize?client_id=' + client_id + '&response_type=' + response_type + '&redirect_uri=' + urllib.parse.quote(redirect_uri) + '&scope=' + urllib.parse.quote(scope)
             return redirect(auth_url)
-        
+
         # there is an access_token, user is logged in
         return render_template('demo.html')
 

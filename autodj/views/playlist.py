@@ -28,7 +28,7 @@ def playlist():
 	}
 	playlist_response =  requests.post(playlist_url, data=json.dumps(data), headers=headers).json()
 	playlist_id = playlist_response['id']
-	
+
 	tracks_to_add = []
 
 	search_url = "https://api.spotify.com/v1/search"
@@ -48,7 +48,7 @@ def playlist():
 		if len(song_response['tracks']['items']) > 0:
 			uri = song_response['tracks']['items'][0]['uri'] # get uri of first result
 			tracks_to_add.append(uri)
-	
+
 	add_to_playlist_url = f"https://api.spotify.com/v1/playlists/{playlist_id}/tracks"
 	headers = {
 		"Authorization": "Bearer " + access_token,

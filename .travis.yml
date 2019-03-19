@@ -1,9 +1,13 @@
 language: python
 python:
   - "3.6"
-  - "3.6-dev"  # 3.6 development branch
   - "3.7-dev"  # 3.7 development branch
-# command to install dependencies
+dist: trusty
+addons:
+  chrome: stable
+# chrome dependencies that allow for testing JS frontend code in travis
+before_install:
+  google-chrome-stable --headless --disable-gpu --remote-debugging-port=5000 http://localhost &
 install:
   - pip install -r requirements.txt
 # command to run tests

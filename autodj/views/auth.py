@@ -9,7 +9,7 @@ from flask import (
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
 
-@bp.route('/login', methods=('GET', 'POST'))
+@bp.route('/login')
 def login():
     if request.method == 'GET':
         error = request.args.get('error') # if there is an error
@@ -54,22 +54,22 @@ def login():
 
         return redirect(url_for('index'))
 
-    if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
-        error = 'error'
-        user = None
-
-        # todo: login with spotify api
-
-        if error is None:
-            # user's id is stored in a new session
-            session.clear()
-            session['user_id'] = user['id']
-            return redirect(url_for('index'))
-
-        # error is shown to the user if authentication fails
-        flash(error)
+    # if request.method == 'POST':
+    #     username = request.form['username']
+    #     password = request.form['password']
+    #     error = 'error'
+    #     user = None
+    #
+    #     # todo: login with spotify api
+    #
+    #     if error is None:
+    #         # user's id is stored in a new session
+    #         session.clear()
+    #         session['user_id'] = user['id']
+    #         return redirect(url_for('index'))
+    #
+    #     # error is shown to the user if authentication fails
+    #     flash(error)
 
     # login page is shown when the user initially navigates to auth/login or there was authentication error
     return render_template('auth/login.html')
