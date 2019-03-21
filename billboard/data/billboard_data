@@ -1,1040 +1,481 @@
-{"song": "High Hopes", "artist": "Panic! At The Disco"}
-{"song": "Natural", "artist": "Imagine Dragons"}
-{"song": "Broken", "artist": "lovelytheband"}
-{"song": "Bad Liar", "artist": "Imagine Dragons"}
-{"song": "Harmony Hall", "artist": "Vampire Weekend"}
-{"song": "My Blood", "artist": "twenty one pilots"}
-{"song": "You're Somebody Else", "artist": "flora cash"}
-{"song": "Chlorine", "artist": "twenty one pilots"}
-{"song": "Shotgun", "artist": "George Ezra"}
-{"song": "Guiding Light", "artist": "Mumford & Sons"}
-{"song": "Superposition", "artist": "Young The Giant"}
-{"song": "Moderation", "artist": "Florence + The Machine"}
-{"song": "Take On Me", "artist": "Weezer"}
-{"song": "S.O.S. (Sawed Off Shotgun)", "artist": "The Glorious Sons"}
-{"song": "Love It If We Made It", "artist": "The 1975"}
-{"song": "Everybody Wants To Rule The World", "artist": "Weezer"}
-{"song": "You're The One", "artist": "Greta Van Fleet"}
-{"song": "No Scrubs", "artist": "Weezer"}
-{"song": "Come Along", "artist": "Cosmo Sheldrake"}
-{"song": "medicine", "artist": "Bring Me The Horizon"}
-{"song": "Pressure", "artist": "Muse"}
-{"song": "Get Up", "artist": "Shinedown"}
-{"song": "mother tongue", "artist": "Bring Me The Horizon"}
-{"song": "BOOM", "artist": "X Ambassadors"}
-{"song": "Worst Nites", "artist": "Foster The People"}
-{"song": "\"99\"", "artist": "Barns Courtney"}
-{"song": "When Legends Rise", "artist": "Godsmack"}
-{"song": "Zero", "artist": "Imagine Dragons"}
-{"song": "Sweet Dreams (Are Made Of This)", "artist": "Weezer"}
-{"song": "Almost (Sweet Music)", "artist": "Hozier"}
-{"song": "Dance Macabre", "artist": "Ghost"}
-{"song": "Home", "artist": "morgxn Featuring WALK THE MOON"}
-{"song": "wonderful life", "artist": "Bring Me The Horizon Featuring Dani Filth"}
-{"song": "Movement", "artist": "Hozier"}
-{"song": "Hurt", "artist": "Oliver Tree"}
-{"song": "Happy Together", "artist": "Weezer"}
-{"song": "Billie Jean", "artist": "Weezer"}
-{"song": "2021", "artist": "Vampire Weekend"}
-{"song": "Mr. Blue Sky", "artist": "Weezer"}
-{"song": "The Greatest Show", "artist": "Panic! At The Disco"}
-{"song": "Northern Lights", "artist": "Death Cab For Cutie"}
-{"song": "Fast Talk", "artist": "Houses"}
-{"song": "Timebomb", "artist": "WALK THE MOON"}
-{"song": "Stand By Me", "artist": "Weezer"}
-{"song": "nihilist blues", "artist": "Bring Me The Horizon Featuring Grimes"}
-{"song": "Ready To Let Go", "artist": "Cage The Elephant"}
-{"song": "sugar honey ice & tea", "artist": "Bring Me The Horizon"}
-{"song": "in the dark", "artist": "Bring Me The Horizon"}
-{"song": "Can't Knock The Hustle", "artist": "Weezer"}
-{"song": "Paranoid", "artist": "Weezer"}
-{"song": "Northern Lights", "artist": "Death Cab For Cutie"}
-{"song": "Light On", "artist": "Maggie Rogers"}
-{"song": "Hey Mama", "artist": "Nathaniel Rateliff & The Night Sweats"}
-{"song": "Change", "artist": "The Revivalists"}
-{"song": "Movement", "artist": "Hozier"}
-{"song": "Guiding Light", "artist": "Mumford & Sons"}
-{"song": "Power Over Me", "artist": "Dermot Kennedy"}
-{"song": "False Confidence", "artist": "Noah Kahan"}
-{"song": "Harmony Hall", "artist": "Vampire Weekend"}
-{"song": "If It Feels Good (then It Must Be)", "artist": "Leon Bridges"}
-{"song": "You're Somebody Else", "artist": "flora cash"}
-{"song": "Superposition", "artist": "Young The Giant"}
-{"song": "\"99\"", "artist": "Barns Courtney"}
-{"song": "Overexcited", "artist": "Guster"}
-{"song": "You're The One", "artist": "Greta Van Fleet"}
-{"song": "All Over Now", "artist": "The Cranberries"}
-{"song": "Shelter", "artist": "Broken Bells"}
-{"song": "Baby Outlaw", "artist": "Elle King"}
-{"song": "Salvation", "artist": "The Strumbellas"}
-{"song": "I Know What It's Like", "artist": "Jeff Tweedy"}
-{"song": "Home", "artist": "morgxn Featuring WALK THE MOON"}
-{"song": "Make It Happen", "artist": "The Record Company"}
-{"song": "Cringe", "artist": "Matt Maeson"}
-{"song": "Funny Business", "artist": "Alice Merton"}
-{"song": "Armor", "artist": "Sara Bareilles"}
-{"song": "Now That You're Gone", "artist": "The Raconteurs"}
-{"song": "Seventeen", "artist": "Sharon Van Etten"}
-{"song": "F**k The Rain", "artist": "Ryan Adams"}
-{"song": "Longshot", "artist": "Catfish And The Bottlemen"}
-{"song": "Hard Case", "artist": "Tedeschi Trucks Band"}
-{"song": "A Tight Ship", "artist": "David Gray"}
-{"song": "Justice", "artist": "Citizen Cope"}
-{"song": "Hide", "artist": "Rainbow Kitten Surprise"}
-{"song": "This Land", "artist": "Gary Clark Jr."}
-{"song": "Little Light", "artist": "Amos Lee"}
-{"song": "Hey Larocco", "artist": "Rayland Baxter"}
-{"song": "Traveling On", "artist": "The Decemberists"}
-{"song": "Sunday Driver", "artist": "The Raconteurs"}
-{"song": "Shame, Shame, Shame", "artist": "Lake Street Dive"}
-{"song": "Happier", "artist": "Marshmello & Bastille"}
-{"song": "Without Me", "artist": "Halsey"}
-{"song": "Thank U, Next", "artist": "Ariana Grande"}
-{"song": "High Hopes", "artist": "Panic! At The Disco"}
-{"song": "Eastside", "artist": "benny blanco, Halsey & Khalid"}
-{"song": "Sunflower (Spider-Man: Into The Spider-Verse)", "artist": "Post Malone & Swae Lee"}
-{"song": "Happier", "artist": "Marshmello & Bastille"}
-{"song": "Close To Me", "artist": "Ellie Goulding X Diplo Featuring Swae Lee"}
-{"song": "Beautiful", "artist": "Bazzi Featuring Camila Cabello"}
-{"song": "This Feeling", "artist": "The Chainsmokers Featuring Kelsea Ballerini"}
-{"song": "7 Rings", "artist": "Ariana Grande"}
-{"song": "Breathin", "artist": "Ariana Grande"}
-{"song": "Sicko Mode", "artist": "Travis Scott"}
-{"song": "Youngblood", "artist": "5 Seconds Of Summer"}
-{"song": "Love Lies", "artist": "Khalid & Normani"}
-{"song": "Better", "artist": "Khalid"}
-{"song": "Lost In The Fire", "artist": "Gesaffelstein & The Weeknd"}
-{"song": "Nothing Breaks Like A Heart", "artist": "Mark Ronson Featuring Miley Cyrus"}
-{"song": "Ruin My Life", "artist": "Zara Larsson"}
-{"song": "Sweet But Psycho", "artist": "Ava Max"}
-{"song": "Wow.", "artist": "Post Malone"}
-{"song": "Tequila", "artist": "Dan + Shay"}
-{"song": "Dancing With A Stranger", "artist": "Sam Smith & Normani"}
-{"song": "Taki Taki", "artist": "DJ Snake Featuring Selena Gomez, Ozuna & Cardi B"}
-{"song": "Body", "artist": "Loud Luxury Featuring Brando"}
-{"song": "MIA", "artist": "Bad Bunny Featuring Drake"}
-{"song": "Be Alright", "artist": "Dean Lewis"}
-{"song": "8 Letters", "artist": "Why Don't We"}
-{"song": "Wake Up In The Sky", "artist": "Gucci Mane X Bruno Mars X Kodak Black"}
-{"song": "Love Someone", "artist": "Lukas Graham"}
-{"song": "Swan Song", "artist": "Dua Lipa"}
-{"song": "Consequences", "artist": "Camila Cabello"}
-{"song": "You Say", "artist": "Lauren Daigle"}
-{"song": "Let You Love Me", "artist": "Rita Ora"}
-{"song": "There's No Way", "artist": "Lauv Featuring Julia Michaels"}
-{"song": "Hurts Like Hell", "artist": "Madison Beer Featuring Offset"}
-{"song": "My Blood", "artist": "twenty one pilots"}
-{"song": "1999", "artist": "Charli XCX & Troye Sivan"}
-{"song": "ZEZE", "artist": "Kodak Black Featuring Travis Scott & Offset"}
-{"song": "Damn", "artist": "Livvia"}
-{"song": "Sue Me", "artist": "Sabrina Carpenter"}
-{"song": "MIA", "artist": "Bad Bunny Featuring Drake"}
-{"song": "Taki Taki", "artist": "DJ Snake Featuring Selena Gomez, Ozuna & Cardi B"}
-{"song": "Despacito", "artist": "Luis Fonsi & Daddy Yankee Featuring Justin Bieber"}
-{"song": "Ella Quiere Beber", "artist": "Anuel AA & Romeo Santos"}
-{"song": "Secreto", "artist": "Anuel AA & Karol G"}
-{"song": "Con Calma", "artist": "Daddy Yankee Featuring Snow"}
-{"song": "Te Bote", "artist": "Casper Magico, Nio Garcia, Darell, Nicky Jam, Ozuna & Bad Bunny"}
-{"song": "Calma", "artist": "Pedro Capo X Farruko"}
-{"song": "Nunca Es Suficiente", "artist": "Los Angeles Azules Featuring Natalia LaFourcade"}
-{"song": "Adictiva", "artist": "Daddy Yankee & Anuel AA"}
-{"song": "A Traves del Vaso", "artist": "Banda Los Sebastianes"}
-{"song": "Solo de Mi", "artist": "Bad Bunny"}
-{"song": "Imposible", "artist": "Luis Fonsi + Ozuna"}
-{"song": "Caro", "artist": "Bad Bunny"}
-{"song": "No Te Contaron Mal", "artist": "Christian Nodal"}
-{"song": "Culpables", "artist": "Karol G & Anuel AA"}
-{"song": "Creeme", "artist": "Karol G & Maluma"}
-{"song": "Mala Mia", "artist": "Maluma"}
-{"song": "Ni Bien Ni Mal", "artist": "Bad Bunny"}
-{"song": "Amanece", "artist": "Anuel AA X Haze"}
-{"song": "Amigos Con Derechos", "artist": "Reik & Maluma"}
-{"song": "BEBE", "artist": "6ix9ine Featuring Anuel AA"}
-{"song": "Bubalu", "artist": "DJ Luian & Mambo Kingz & Anuel AA X Becky G X Prince Royce"}
-{"song": "Baila Baila Baila", "artist": "Ozuna"}
-{"song": "Reggaeton En Lo Oscuro", "artist": "Wisin & Yandel"}
-{"song": "La Romana", "artist": "Bad Bunny Featuring El Alfa"}
-{"song": "Reggaeton", "artist": "J Balvin"}
-{"song": "Aerolinea Carrillo", "artist": "T3r Elemento Featuring Gerardo Ortiz"}
-{"song": "Adan y Eva", "artist": "Paulo Londra"}
-{"song": "Cuando Te Bese", "artist": "Becky G + Paulo Londra"}
-{"song": "Sola", "artist": "Manuel Turizo"}
-{"song": "Hola", "artist": "Zion & Lennox"}
-{"song": "Llegaste Tu", "artist": "CNCO + Prince Royce"}
-{"song": "El Lujo de Tenerte", "artist": "Regulo Caro"}
-{"song": "Quiero Reintentarlo", "artist": "Virlan Garcia"}
-{"song": "Gracias Por Tu Amor", "artist": "Banda El Recodo de Cruz Lizarraga Featuring David Bisbal"}
-{"song": "200 MPH", "artist": "Bad Bunny Featuring Diplo"}
-{"song": "Celoso", "artist": "Lele Pons"}
-{"song": "Otra Noche En Miami", "artist": "Bad Bunny"}
-{"song": "A Traves del Vaso", "artist": "Grupo Arranke"}
-{"song": "Adicto", "artist": "Prince Royce + Marc Anthony"}
-{"song": "Por Que Cambiaste de Opinion?", "artist": "Calibre 50"}
-{"song": "Ya No Tiene Novio", "artist": "Sebastian Yatra + Mau y Ricky"}
-{"song": "Si Estuviesemos Juntos", "artist": "Bad Bunny"}
-{"song": "Esta Rico", "artist": "Marc Anthony, Will Smith & Bad Bunny"}
-{"song": "MALA", "artist": "6ix9ine Featuring Anuel AA"}
-{"song": "Dolor y Amor", "artist": "El Fantasma"}
-{"song": "Luz Apaga", "artist": "Ozuna x Lunay x Rauw Alejandro x Lyanno"}
-{"song": "Por Siempre Mi Amor", "artist": "Banda Sinaloense MS de Sergio Lizarraga"}
-{"song": "Fijate Que Si", "artist": "Edwin Luna y La Trakalosa de Monterrey"}
-{"song": "Sunflower (Spider-Man: Into The Spider-Verse)", "artist": "Post Malone & Swae Lee"}
-{"song": "Middle Child", "artist": "J. Cole"}
-{"song": "Sicko Mode", "artist": "Travis Scott"}
-{"song": "Wow.", "artist": "Post Malone"}
-{"song": "Drip Too Hard", "artist": "Lil Baby & Gunna"}
-{"song": "Money", "artist": "Cardi B"}
-{"song": "ZEZE", "artist": "Kodak Black Featuring Travis Scott & Offset"}
-{"song": "Going Bad", "artist": "Meek Mill Featuring Drake"}
-{"song": "Wake Up In The Sky", "artist": "Gucci Mane X Bruno Mars X Kodak Black"}
-{"song": "Mo Bamba", "artist": "Sheck Wes"}
-{"song": "Leave Me Alone", "artist": "Flipp Dinero"}
-{"song": "Better", "artist": "Khalid"}
-{"song": "A Lot", "artist": "21 Savage"}
-{"song": "Thotiana", "artist": "Blueface"}
-{"song": "Trip", "artist": "Ella Mai"}
-{"song": "Look Back At It", "artist": "A Boogie Wit da Hoodie"}
-{"song": "Lost In The Fire", "artist": "Gesaffelstein & The Weeknd"}
-{"song": "Envy Me", "artist": "Calboy"}
-{"song": "Swervin", "artist": "A Boogie Wit da Hoodie Featuring 6ix9ine"}
-{"song": "Twerk", "artist": "City Girls Featuring Cardi B"}
-{"song": "Backin' It Up", "artist": "Pardison Fontaine Featuring Cardi B"}
-{"song": "Undecided", "artist": "Chris Brown"}
-{"song": "Pure Cocaine", "artist": "Lil Baby"}
-{"song": "First Off", "artist": "Future Featuring Travis Scott"}
-{"song": "Uproar", "artist": "Lil Wayne"}
-{"song": "Armed And Dangerous", "artist": "Juice WRLD"}
-{"song": "Saturday Nights", "artist": "Khalid & Kane Brown"}
-{"song": "Keanu Reeves", "artist": "Logic"}
-{"song": "Calling My Spirit", "artist": "Kodak Black"}
-{"song": "You", "artist": "Jacquees"}
-{"song": "Put A Date On It", "artist": "Yo Gotti Featuring Lil Baby"}
-{"song": "No Stylist", "artist": "French Montana Featuring Drake"}
-{"song": "Crushed Up", "artist": "Future"}
-{"song": "Arms Around You", "artist": "XXXTENTACION x Lil Pump Featuring Maluma & Swae Lee"}
-{"song": "Mixed Personalities", "artist": "YNW Melly Featuring Kanye West"}
-{"song": "Yosemite", "artist": "Travis Scott"}
-{"song": "Murder On My Mind", "artist": "YNW Melly"}
-{"song": "Nights Like This", "artist": "Kehlani Featuring Ty Dolla $ign"}
-{"song": "Startender", "artist": "A Boogie Wit da Hoodie Featuring Offset & Tyga"}
-{"song": "Shot Clock", "artist": "Ella Mai"}
-{"song": "Sauce!", "artist": "XXXTENTACION"}
-{"song": "Splashin", "artist": "Rich The Kid"}
-{"song": "Talk To Me", "artist": "Tory Lanez & Rich The Kid"}
-{"song": "BAD!", "artist": "XXXTENTACION"}
-{"song": "Valuable Pain", "artist": "YoungBoy Never Broke Again"}
-{"song": "Pure Water", "artist": "Mustard & Migos"}
-{"song": "Close Friends", "artist": "Lil Baby"}
-{"song": "Bleed It", "artist": "Blueface"}
-{"song": "Faucet Failure", "artist": "Ski Mask The Slump God"}
-{"song": "Fine China", "artist": "Future & Juice WRLD"}
-{"song": "Tequila", "artist": "Dan + Shay"}
-{"song": "Speechless", "artist": "Dan + Shay"}
-{"song": "Meant To Be", "artist": "Bebe Rexha & Florida Georgia Line"}
-{"song": "Beautiful Crazy", "artist": "Luke Combs"}
-{"song": "Girl Like You", "artist": "Jason Aldean"}
-{"song": "This Is It", "artist": "Scotty McCreery"}
-{"song": "Sixteen", "artist": "Thomas Rhett"}
-{"song": "She Got The Best Of Me", "artist": "Luke Combs"}
-{"song": "Burning Man", "artist": "Dierks Bentley Featuring Brothers Osborne"}
-{"song": "Best Shot", "artist": "Jimmie Allen"}
-{"song": "Take It From Me", "artist": "Jordan Davis"}
-{"song": "What Makes You Country", "artist": "Luke Bryan"}
-{"song": "Millionaire", "artist": "Chris Stapleton"}
-{"song": "Down To The Honkytonk", "artist": "Jake Owen"}
-{"song": "Love Wins", "artist": "Carrie Underwood"}
-{"song": "Make It Sweet", "artist": "Old Dominion"}
-{"song": "Burn Out", "artist": "Midland"}
-{"song": "Here Tonight", "artist": "Brett Young"}
-{"song": "Night Shift", "artist": "Jon Pardi"}
-{"song": "On My Way To You", "artist": "Cody Johnson"}
-{"song": "Miss Me More", "artist": "Kelsea Ballerini"}
-{"song": "Rumor", "artist": "Lee Brice"}
-{"song": "There Was This Girl", "artist": "Riley Green"}
-{"song": "One That Got Away", "artist": "Michael Ray"}
-{"song": "GIRL", "artist": "Maren Morris"}
-{"song": "Whiskey Glasses", "artist": "Morgan Wallen"}
-{"song": "Eyes On You", "artist": "Chase Rice"}
-{"song": "Talk You Out Of It", "artist": "Florida Georgia Line"}
-{"song": "Good As You", "artist": "Kane Brown"}
-{"song": "Never Comin Down", "artist": "Keith Urban"}
-{"song": "Love Ain't", "artist": "Eli Young Band"}
-{"song": "Caught Up In The Country", "artist": "Rodney Atkins Featuring The Fisk Jubilee Singers"}
-{"song": "Love Someone", "artist": "Brett Eldredge"}
-{"song": "The Difference", "artist": "Tyler Rich"}
-{"song": "I Don't Know About You", "artist": "Chris Lane"}
-{"song": "Prayed For You", "artist": "Matt Stell"}
-{"song": "What Happens In A Small Town", "artist": "Brantley Gilbert + Lindsay Ell"}
-{"song": "Stronger Than Me", "artist": "Garth Brooks"}
-{"song": "Closer To You", "artist": "Carly Pearce"}
-{"song": "Friends Don't", "artist": "Maddie & Tae"}
-{"song": "Really Shouldn't Drink Around You", "artist": "Teddy Robb"}
-{"song": "Nothing To Do Town", "artist": "Dylan Scott"}
-{"song": "Some Of It", "artist": "Eric Church"}
-{"song": "Back To Life", "artist": "Rascal Flatts"}
-{"song": "What Whiskey Does", "artist": "Randy Houser Featuring Hillary Lindsey"}
-{"song": "Bring It On Over", "artist": "Billy Currington"}
-{"song": "All To Myself", "artist": "Dan + Shay"}
-{"song": "Feels Like A Party", "artist": "LOCASH"}
-{"song": "I Hate This", "artist": "Tenille Arts"}
-{"song": "Neon Church", "artist": "Tim McGraw"}
-{"song": "The Twist", "artist": "Chubby Checker"}
-{"song": "Smooth", "artist": "Santana Featuring Rob Thomas"}
-{"song": "Mack The Knife", "artist": "Bobby Darin"}
-{"song": "How Do I Live", "artist": "LeAnn Rimes"}
-{"song": "Party Rock Anthem", "artist": "LMFAO Featuring Lauren Bennett & GoonRock"}
-{"song": "I Gotta Feeling", "artist": "The Black Eyed Peas"}
-{"song": "Macarena (Bayside Boys Mix)", "artist": "Los Del Rio"}
-{"song": "Physical", "artist": "Olivia Newton-John"}
-{"song": "You Light Up My Life", "artist": "Debby Boone"}
-{"song": "Hey Jude", "artist": "The Beatles"}
-{"song": "We Belong Together", "artist": "Mariah Carey"}
-{"song": "Uptown Funk!", "artist": "Mark Ronson Featuring Bruno Mars"}
-{"song": "Un-Break My Heart", "artist": "Toni Braxton"}
-{"song": "Yeah!", "artist": "Usher Featuring Lil Jon & Ludacris"}
-{"song": "Bette Davis Eyes", "artist": "Kim Carnes"}
-{"song": "Endless Love", "artist": "Diana Ross & Lionel Richie"}
-{"song": "Tonight's The Night (Gonna Be Alright)", "artist": "Rod Stewart"}
-{"song": "Foolish Games/You Were Meant For Me", "artist": "Jewel"}
-{"song": "(Everything I Do) I Do It For You", "artist": "Bryan Adams"}
-{"song": "I'Ll Make Love To You", "artist": "Boyz II Men"}
-{"song": "The Theme From \"A Summer Place\"", "artist": "Percy Faith And His Orchestra"}
-{"song": "Le Freak", "artist": "Chic"}
-{"song": "How Deep Is Your Love", "artist": "Bee Gees"}
-{"song": "Eye Of The Tiger", "artist": "Survivor"}
-{"song": "We Found Love", "artist": "Rihanna Featuring Calvin Harris"}
-{"song": "Low", "artist": "Flo Rida Featuring T-Pain"}
-{"song": "I Just Want To Be Your Everything", "artist": "Andy Gibb"}
-{"song": "Too Close", "artist": "Next"}
-{"song": "Every Breath You Take", "artist": "The Police"}
-{"song": "Somebody That I Used To Know", "artist": "Gotye Featuring Kimbra"}
-{"song": "Flashdance...What A Feeling", "artist": "Irene Cara"}
-{"song": "Rolling In The Deep", "artist": "Adele"}
-{"song": "Tossin' And Turnin'", "artist": "Bobby Lewis"}
-{"song": "The Battle Of New Orleans", "artist": "Johnny Horton"}
-{"song": "One Sweet Day", "artist": "Mariah Carey & Boyz II Men"}
-{"song": "Truly Madly Deeply", "artist": "Savage Garden"}
-{"song": "Silly Love Songs", "artist": "Wings"}
-{"song": "Let's Get It On", "artist": "Marvin Gaye"}
-{"song": "Night Fever", "artist": "Bee Gees"}
-{"song": "Another One Bites The Dust", "artist": "Queen"}
-{"song": "Say Say Say", "artist": "Paul McCartney And Michael Jackson"}
-{"song": "How You Remind Me", "artist": "Nickelback"}
-{"song": "Tie A Yellow Ribbon Round The Ole Oak Tree", "artist": "Dawn Featuring Tony Orlando"}
-{"song": "It's All In The Game", "artist": "Four Tops"}
-{"song": "I Want To Hold Your Hand", "artist": "The Beatles"}
-{"song": "Shadow Dancing", "artist": "Andy Gibb"}
-{"song": "Call Me Maybe", "artist": "Carly Rae Jepsen"}
-{"song": "Blurred Lines", "artist": "Robin Thicke Featuring T.I. + Pharrell"}
-{"song": "Candle In The Wind 1997/Something About The Way You Look Tonight", "artist": "Elton John"}
-{"song": "No One", "artist": "Alicia Keys"}
-{"song": "I Will Always Love You", "artist": "Whitney Houston"}
-{"song": "End Of The Road", "artist": "Boyz II Men"}
-{"song": "Boom Boom Pow", "artist": "The Black Eyed Peas"}
-{"song": "Call Me", "artist": "Blondie"}
-{"song": "Let Me Love You", "artist": "Mario"}
-{"song": "Stayin' Alive", "artist": "Bee Gees"}
-{"song": "Lady", "artist": "Kenny Rogers"}
-{"song": "Tik Tok", "artist": "Ke$ha"}
-{"song": "I'm A Believer", "artist": "The Monkees"}
-{"song": "Gold Digger", "artist": "Kanye West Featuring Jamie Foxx"}
-{"song": "Apologize", "artist": "Timbaland Featuring OneRepublic"}
-{"song": "The Sign", "artist": "Ace Of Base"}
-{"song": "Centerfold", "artist": "The J. Geils Band"}
-{"song": "(Just Like) Starting Over", "artist": "John Lennon"}
-{"song": "Royals", "artist": "Lorde"}
-{"song": "The Boy Is Mine", "artist": "Brandy & Monica"}
-{"song": "Because I Love You (The Postman Song)", "artist": "Stevie B"}
-{"song": "I Love Rock 'N Roll", "artist": "Joan Jett & the Blackhearts"}
-{"song": "All About That Bass", "artist": "Meghan Trainor"}
-{"song": "Aquarius/Let The Sunshine In", "artist": "The 5th Dimension"}
-{"song": "Whoomp! (There It Is)", "artist": "Tag Team"}
-{"song": "Moves Like Jagger", "artist": "Maroon 5 Featuring Christina Aguilera"}
-{"song": "Ebony And Ivory", "artist": "Paul McCartney And Stevie Wonder"}
-{"song": "Rush Rush", "artist": "Paula Abdul"}
-{"song": "That's What Friends Are For", "artist": "Dionne & Friends"}
-{"song": "Happy", "artist": "Pharrell Williams"}
-{"song": "Upside Down", "artist": "Diana Ross"}
-{"song": "Sugar, Sugar", "artist": "The Archies"}
-{"song": "Just The Way You Are", "artist": "Bruno Mars"}
-{"song": "Dilemma", "artist": "Nelly Featuring Kelly Rowland"}
-{"song": "I Heard It Through The Grapevine", "artist": "Marvin Gaye"}
-{"song": "You're Still The One", "artist": "Shania Twain"}
-{"song": "Billie Jean", "artist": "Michael Jackson"}
-{"song": "Hot Stuff", "artist": "Donna Summer"}
-{"song": "Gangsta's Paradise", "artist": "Coolio Featuring L.V."}
-{"song": "Abracadabra", "artist": "The Steve Miller Band"}
-{"song": "You're So Vain", "artist": "Carly Simon"}
-{"song": "Play That Funky Music", "artist": "Wild Cherry"}
-{"song": "Say You, Say Me", "artist": "Lionel Richie"}
-{"song": "My Sharona", "artist": "The Knack"}
-{"song": "All Night Long (All Night)", "artist": "Lionel Richie"}
-{"song": "Nothing Compares 2 U", "artist": "Sinead O'Connor"}
-{"song": "I Swear", "artist": "All-4-One"}
-{"song": "Family Affair", "artist": "Mary J. Blige"}
-{"song": "Waiting For A Girl Like You", "artist": "Foreigner"}
-{"song": "Are You Lonesome To-Night?", "artist": "Elvis Presley With The Jordanaires"}
-{"song": "Killing Me Softly With His Song", "artist": "Roberta Flack"}
-{"song": "Hurts So Good", "artist": "John Cougar"}
-{"song": "I'Ll Be Missing You", "artist": "Puff Daddy & Faith Evans Featuring 112"}
-{"song": "Dark Horse", "artist": "Katy Perry Featuring Juicy J"}
-{"song": "All I Want For Christmas Is You", "artist": "Mariah Carey"}
-{"song": "Jingle Bell Rock", "artist": "Bobby Helms"}
-{"song": "Rockin' Around The Christmas Tree", "artist": "Brenda Lee"}
-{"song": "A Holly Jolly Christmas", "artist": "Burl Ives"}
-{"song": "The Christmas Song (Merry Christmas To You)", "artist": "Nat King Cole"}
-{"song": "It's The Most Wonderful Time Of The Year", "artist": "Andy Williams"}
-{"song": "Rudolph The Red-Nosed Reindeer", "artist": "Gene Autry"}
-{"song": "Let It Snow, Let It Snow, Let It Snow", "artist": "Dean Martin"}
-{"song": "Last Christmas", "artist": "Wham!"}
-{"song": "Sleigh Ride", "artist": "The Ronettes"}
-{"song": "Here Comes Santa Claus (Down Santa Claus Lane)", "artist": "Gene Autry"}
-{"song": "Feliz Navidad", "artist": "Jose Feliciano"}
-{"song": "(There's No Place Like) Home For The Holidays", "artist": "Perry Como"}
-{"song": "White Christmas", "artist": "Bing Crosby"}
-{"song": "It's Beginning To Look A Lot Like Christmas", "artist": "Perry Como And The Fontane Sisters With Mitchell Ayres And His Orchestra"}
-{"song": "Blue Christmas", "artist": "Elvis Presley"}
-{"song": "Happy Xmas (War Is Over)", "artist": "John & Yoko/The Plastic Ono Band With The Harlem Community Choir"}
-{"song": "Christmas (Baby Please Come Home)", "artist": "Darlene Love"}
-{"song": "Underneath The Tree", "artist": "Kelly Clarkson"}
-{"song": "Run Rudolph Run", "artist": "Chuck Berry"}
-{"song": "Jingle Bells", "artist": "Frank Sinatra"}
-{"song": "Wonderful Christmastime", "artist": "Paul McCartney"}
-{"song": "Baby It's Cold Outside", "artist": "Dean Martin"}
-{"song": "Have Yourself A Merry Little Christmas", "artist": "Michael Buble"}
-{"song": "Please Come Home For Christmas", "artist": "Eagles"}
-{"song": "Happy Holiday/The Holiday Season", "artist": "Andy Williams"}
-{"song": "Frosty The Snowman", "artist": "Jimmy Durante"}
-{"song": "I'll Be Home For Christmas", "artist": "Bing Crosby"}
-{"song": "O Tannenbaum", "artist": "Vince Guaraldi Trio"}
-{"song": "Cozy Little Christmas", "artist": "Katy Perry"}
-{"song": "It's Beginning To Look A Lot Like Christmas", "artist": "Michael Buble"}
-{"song": "Little Saint Nick", "artist": "The Beach Boys"}
-{"song": "The Christmas Song", "artist": "Lauren Daigle"}
-{"song": "Santa Tell Me", "artist": "Ariana Grande"}
-{"song": "Winter Wonderland", "artist": "Darlene Love"}
-{"song": "Silver Bells", "artist": "Andy Williams"}
-{"song": "Hallelujah", "artist": "Pentatonix"}
-{"song": "Merry Christmas Darling", "artist": "Carpenters"}
-{"song": "Do You Hear What I Hear?", "artist": "Andy Williams"}
-{"song": "Christmas Time Is Here", "artist": "Vince Guaraldi Trio"}
-{"song": "The Christmas Waltz", "artist": "Frank Sinatra"}
-{"song": "You're A Mean One, Mr. Grinch", "artist": "Thurl Ravenscroft"}
-{"song": "O Come All Ye Faithful", "artist": "Nat King Cole"}
-{"song": "Santa Baby", "artist": "Eartha Kitt"}
-{"song": "Christmas Eve (Sarajevo 12/24)", "artist": "Trans-Siberian Orchestra"}
-{"song": "The Little Drummer Boy", "artist": "Bing Crosby"}
-{"song": "Do They Know It's Christmas?", "artist": "Band-Aid"}
-{"song": "Mistletoe", "artist": "Justin Bieber"}
-{"song": "The Twelve Days Of Christmas", "artist": "Ray Conniff"}
-{"song": "The First Noel", "artist": "Andy Williams"}
-{"song": "It's Beginning To Look A Lot Like Christmas", "artist": "Bing Crosby"}
-{"song": "Deck The Halls", "artist": "Nat King Cole"}
-{"song": "Merry Christmas Baby", "artist": "Otis Redding"}
-{"song": "Hark! The Herald Angels Sing / Gloria (In Excelsis Deo)", "artist": "Mariah Carey"}
-{"song": "Linus & Lucy", "artist": "Vince Guaraldi Trio"}
-{"song": "Mary, Did You Know?", "artist": "Pentatonix"}
-{"song": "Merry Christmas, Happy Holidays", "artist": "'N Sync"}
-{"song": "Santa Claus Is Comin' To Town", "artist": "Jackson 5"}
-{"song": "Have Yourself A Merry Little Christmas", "artist": "Frank Sinatra"}
-{"song": "Carol Of The Bells", "artist": "John Williams"}
-{"song": "It's Beginning To Look A Lot Like Christmas", "artist": "Johnny Mathis"}
-{"song": "Christmas Canon", "artist": "Trans-Siberian Orchestra"}
-{"song": "Christmas (Baby Please Come Home)", "artist": "Michael Buble"}
-{"song": "Holly Jolly Christmas", "artist": "Michael Buble"}
-{"song": "Here Comes Santa Claus (Right Down Santa Claus Lane)", "artist": "Elvis Presley"}
-{"song": "This Christmas", "artist": "Donny Hathaway"}
-{"song": "Where Are You Christmas?", "artist": "Faith Hill"}
-{"song": "What Christmas Means To Me", "artist": "Stevie Wonder"}
-{"song": "You Make It Feel Like Christmas", "artist": "Gwen Stefani Featuring Blake Shelton"}
-{"song": "Christmas (Baby Please Come Home)", "artist": "Mariah Carey"}
-{"song": "I Saw Mommy Kissing Santa Claus", "artist": "Jackson 5"}
-{"song": "Santa Claus Is Comin' To Town", "artist": "Bruce Springsteen"}
-{"song": "Let It Snow, Let It Snow, Let It Snow", "artist": "Frank Sinatra"}
-{"song": "O Holy Night", "artist": "Josh Groban"}
-{"song": "White Christmas", "artist": "The Drifters"}
-{"song": "Silent Night", "artist": "The Temptations"}
-{"song": "The Chipmunk Song (Christmas Don't Be Late)", "artist": "David Seville & The Chipmunks"}
-{"song": "I'll Be Home For Christmas", "artist": "Michael Buble"}
-{"song": "All Through The Night", "artist": "Perry Como"}
-{"song": "Hawaiian Christmas Song (Mele Kalikmaka)", "artist": "Bing Crosby & The Andrews Sisters"}
-{"song": "Little Drummer Boy", "artist": "Pentatonix"}
-{"song": "Someday At Christmas", "artist": "Stevie Wonder"}
-{"song": "Santa Claus Is Coming To Town", "artist": "Michael Buble"}
-{"song": "Silver Bells", "artist": "Dean Martin"}
-{"song": "Rudolph The Red-Nosed Reindeer", "artist": "Burl Ives"}
-{"song": "Do You Hear What I Hear", "artist": "Whitney Houston"}
-{"song": "Have Yourself A Merry Little Christmas", "artist": "Judy Garland"}
-{"song": "Baby, It's Cold Outside", "artist": "Brett Eldredge Featuring Meghan Trainor"}
-{"song": "All I Want For Christmas Is You (Extra Festive)", "artist": "Mariah Carey"}
-{"song": "Santa Claus Is Comin' To Town", "artist": "Bing Crosby & The Andrews Sisters"}
-{"song": "Joy To The World", "artist": "Nat King Cole"}
-{"song": "Mistletoe And Holly", "artist": "Frank Sinatra"}
-{"song": "Do You Hear What I Hear?", "artist": "Bing Crosby"}
-{"song": "Baby It's Cold Outside", "artist": "Idina Menzel Duet With Michael Buble"}
-{"song": "Have Yourself A Merry Little Christmas", "artist": "Sam Smith"}
-{"song": "Jingle Bells", "artist": "Michael Buble Featuring The Puppini Sisters"}
-{"song": "O Holy Night", "artist": "Mariah Carey"}
-{"song": "Winter Wonderland", "artist": "Bing Crosby"}
-{"song": "The Little Drummer Boy", "artist": "The Harry Simeone Chorale"}
-{"song": "This Christmas", "artist": "Chris Brown"}
-{"song": "You Say", "artist": "Lauren Daigle"}
-{"song": "Who You Say I Am", "artist": "Hillsong Worship"}
-{"song": "Reckless Love", "artist": "Cory Asbury"}
-{"song": "Known", "artist": "Tauren Wells"}
-{"song": "Only Jesus", "artist": "Casting Crowns"}
-{"song": "Even Then", "artist": "Micah Tyler"}
-{"song": "God Only Knows", "artist": "for KING & COUNTRY"}
-{"song": "Everything", "artist": "tobyMac"}
-{"song": "Stand In Your Love", "artist": "Josh Baldwin"}
-{"song": "Best News Ever", "artist": "MercyMe"}
-{"song": "Head Above Water", "artist": "Avril Lavigne"}
-{"song": "Maybe It's Ok", "artist": "We Are Messengers"}
-{"song": "Look Up Child", "artist": "Lauren Daigle"}
-{"song": "Confidence", "artist": "Sanctus Real"}
-{"song": "Survivor", "artist": "Zach Williams"}
-{"song": "Red Letters", "artist": "Crowder"}
-{"song": "Nobody Loves Me Like You", "artist": "Chris Tomlin"}
-{"song": "Raise A Hallelujah (Live)", "artist": "Bethel Music, Jonathan David Helser & Melissa Helser"}
-{"song": "Resurrecting", "artist": "Elevation Worship"}
-{"song": "Build My Life", "artist": "Pat Barrett"}
-{"song": "Never Alone", "artist": "Tori Kelly Featuring Kirk Franklin"}
-{"song": "Whole Heart (Hold Me Now)", "artist": "Hillsong UNITED"}
-{"song": "Changed", "artist": "Jordan Feliz"}
-{"song": "Haven't Seen It Yet", "artist": "Danny Gokey"}
-{"song": "Well Done", "artist": "The Afters"}
-{"song": "Born Again", "artist": "Austin French"}
-{"song": "Ain't No Grave (Live)", "artist": "Bethel Music & Molly Skaggs"}
-{"song": "Goodness Of God (Live)", "artist": "Bethel Music & Jenn Johnson"}
-{"song": "Good Grace", "artist": "Hillsong UNITED"}
-{"song": "Scars", "artist": "I AM THEY"}
-{"song": "Gold", "artist": "Apollo LTD"}
-{"song": "Greatness Of Our God", "artist": "newsboys"}
-{"song": "Victory Is Yours (Live)", "artist": "Bethel Music & Bethany Wohrle"}
-{"song": "So Will I (100 Billion X)", "artist": "Cross Worship Featuring Osby Berry"}
-{"song": "My Defender", "artist": "Jeremy Camp"}
-{"song": "This Girl", "artist": "Lauren Daigle"}
-{"song": "Echo", "artist": "Elevation Worship Featuring Tauren Wells"}
-{"song": "Mercy Is A Song", "artist": "Matthew West"}
-{"song": "Freedom", "artist": "Jesus Culture Featuring Kim Walker-Smith"}
-{"song": "Stand In Your Love (Recorded Live)", "artist": "Bethel Music"}
-{"song": "Church (Take Me Back)", "artist": "Cochren & Co"}
-{"song": "Native Tongue", "artist": "Switchfoot"}
-{"song": "Spirit Lead Me", "artist": "Influence Music & Michael Ketterer"}
-{"song": "Symphony", "artist": "Switch Featuring Dillon Chase"}
-{"song": "Nothing Else", "artist": "Cody Carnes"}
-{"song": "Cover The Earth", "artist": "Kari Jobe & Cody Carnes"}
-{"song": "Rebel Heart", "artist": "Lauren Daigle"}
-{"song": "Burn The Ships", "artist": "for KING & COUNTRY"}
-{"song": "Your Wings", "artist": "Lauren Daigle"}
-{"song": "My Revival", "artist": "Lauren Daigle"}
-{"song": "Middle Child", "artist": "J. Cole"}
-{"song": "Sunflower (Spider-Man: Into The Spider-Verse)", "artist": "Post Malone & Swae Lee"}
-{"song": "Sicko Mode", "artist": "Travis Scott"}
-{"song": "Wow.", "artist": "Post Malone"}
-{"song": "Drip Too Hard", "artist": "Lil Baby & Gunna"}
-{"song": "Going Bad", "artist": "Meek Mill Featuring Drake"}
-{"song": "Mo Bamba", "artist": "Sheck Wes"}
-{"song": "Thotiana", "artist": "Blueface"}
-{"song": "ZEZE", "artist": "Kodak Black Featuring Travis Scott & Offset"}
-{"song": "Money", "artist": "Cardi B"}
-{"song": "Wake Up In The Sky", "artist": "Gucci Mane X Bruno Mars X Kodak Black"}
-{"song": "A Lot", "artist": "21 Savage"}
-{"song": "Leave Me Alone", "artist": "Flipp Dinero"}
-{"song": "Lucid Dreams", "artist": "Juice WRLD"}
-{"song": "Envy Me", "artist": "Calboy"}
-{"song": "Swervin", "artist": "A Boogie Wit da Hoodie Featuring 6ix9ine"}
-{"song": "Look Back At It", "artist": "A Boogie Wit da Hoodie"}
-{"song": "Better Now", "artist": "Post Malone"}
-{"song": "Sad!", "artist": "XXXTENTACION"}
-{"song": "Moonlight", "artist": "XXXTENTACION"}
-{"song": "In My Feelings", "artist": "Drake"}
-{"song": "Pure Cocaine", "artist": "Lil Baby"}
-{"song": "Taste", "artist": "Tyga Featuring Offset"}
-{"song": "First Off", "artist": "Future Featuring Travis Scott"}
-{"song": "God's Plan", "artist": "Drake"}
-{"song": "Better", "artist": "Khalid"}
-{"song": "Trip", "artist": "Ella Mai"}
-{"song": "Lost In The Fire", "artist": "Gesaffelstein & The Weeknd"}
-{"song": "Undecided", "artist": "Chris Brown"}
-{"song": "Saturday Nights", "artist": "Khalid & Kane Brown"}
-{"song": "You", "artist": "Jacquees"}
-{"song": "Arms Around You", "artist": "XXXTENTACION x Lil Pump Featuring Maluma & Swae Lee"}
-{"song": "Nights Like This", "artist": "Kehlani Featuring Ty Dolla $ign"}
-{"song": "Shot Clock", "artist": "Ella Mai"}
-{"song": "Talk To Me", "artist": "Tory Lanez & Rich The Kid"}
-{"song": "Karma", "artist": "Queen Naija"}
-{"song": "Girls Need Love", "artist": "Summer Walker"}
-{"song": "Could've Been", "artist": "H.E.R. Featuring Bryson Tiller"}
-{"song": "whoa (mind in awe)", "artist": "XXXTENTACION"}
-{"song": "OTW", "artist": "Khalid, Ty Dolla $ign & 6LACK"}
-{"song": "Ride Good", "artist": "LightSkinKeisha & BSmyth"}
-{"song": "Slow Dancing In The Dark", "artist": "Joji"}
-{"song": "Gonna Love Me", "artist": "Teyana Taylor"}
-{"song": "Butterflies", "artist": "Queen Naija"}
-{"song": "With You", "artist": "Mariah Carey"}
-{"song": "You", "artist": "Nicole Bus"}
-{"song": "Naked", "artist": "Ella Mai"}
-{"song": "Riot", "artist": "Summer Walker"}
-{"song": "Love Theory", "artist": "Kirk Franklin"}
-{"song": "Secret", "artist": "Ann Marie Featuring YK Osiris"}
-{"song": "High Hopes", "artist": "Panic! At The Disco"}
-{"song": "Happier", "artist": "Marshmello & Bastille"}
-{"song": "Without Me", "artist": "Halsey"}
-{"song": "Girls Like You", "artist": "Maroon 5 Featuring Cardi B"}
-{"song": "You Say", "artist": "Lauren Daigle"}
-{"song": "Be Alright", "artist": "Dean Lewis"}
-{"song": "Youngblood", "artist": "5 Seconds Of Summer"}
-{"song": "Broken", "artist": "lovelytheband"}
-{"song": "Shallow", "artist": "Lady Gaga & Bradley Cooper"}
-{"song": "Breathin", "artist": "Ariana Grande"}
-{"song": "Love Someone", "artist": "Lukas Graham"}
-{"song": "Thank U, Next", "artist": "Ariana Grande"}
-{"song": "Close To Me", "artist": "Ellie Goulding X Diplo Featuring Swae Lee"}
-{"song": "Eastside", "artist": "benny blanco, Halsey & Khalid"}
-{"song": "A Million Dreams", "artist": "P!nk"}
-{"song": "Heat", "artist": "Kelly Clarkson"}
-{"song": "Burn The House Down", "artist": "AJR"}
-{"song": "Shotgun", "artist": "George Ezra"}
-{"song": "Dancing With A Stranger", "artist": "Sam Smith & Normani"}
-{"song": "Used To Be", "artist": "Matt Nathanson"}
-{"song": "Nothing Breaks Like A Heart", "artist": "Mark Ronson Featuring Miley Cyrus"}
-{"song": "Chances", "artist": "Backstreet Boys"}
-{"song": "Guiding Light", "artist": "Mumford & Sons"}
-{"song": "Head Above Water", "artist": "Avril Lavigne"}
-{"song": "Ruin My Life", "artist": "Zara Larsson"}
-{"song": "Miss You All The Time", "artist": "O.A.R."}
-{"song": "This Feeling", "artist": "The Chainsmokers Featuring Kelsea Ballerini"}
-{"song": "Consequences", "artist": "Camila Cabello"}
-{"song": "7 Rings", "artist": "Ariana Grande"}
-{"song": "You're Somebody Else", "artist": "flora cash"}
-{"song": "Love You Anymore", "artist": "Michael Buble"}
-{"song": "Sunflower (Spider-Man: Into The Spider-Verse)", "artist": "Post Malone & Swae Lee"}
-{"song": "Killer Queen", "artist": "5 Seconds Of Summer"}
-{"song": "Lost In The Fire", "artist": "Gesaffelstein & The Weeknd"}
-{"song": "One Drink", "artist": "Picture This"}
-{"song": "Thursday", "artist": "Jess Glynne"}
-{"song": "No Place", "artist": "Backstreet Boys"}
-{"song": "Sweet But Psycho", "artist": "Ava Max"}
-{"song": "Speechless", "artist": "Dan + Shay"}
-{"song": "Love Me Not", "artist": "Whitney Woerz"}
-{"song": "HOW DO I LIVE", "artist": "LeAnn Rimes"}
-{"song": "Physical", "artist": "Olivia Newton-John"}
-{"song": "You Light Up My Life", "artist": "Debby Boone"}
-{"song": "We Belong Together", "artist": "Mariah Carey"}
-{"song": "Un-Break My Heart", "artist": "Toni Braxton"}
-{"song": "Bette Davis Eyes", "artist": "Kim Carnes"}
-{"song": "Endless Love", "artist": "Diana Ross & Lionel Richie"}
-{"song": "Foolish Games/You Were Meant For Me", "artist": "Jewel"}
-{"song": "Le Freak", "artist": "Chic"}
-{"song": "We Found Love", "artist": "Rihanna Featuring Calvin Harris"}
-{"song": "Flashdance...What A Feeling", "artist": "Irene Cara"}
-{"song": "Rolling In The Deep", "artist": "Adele"}
-{"song": "One Sweet Day", "artist": "Mariah Carey & Boyz II Men"}
-{"song": "Call Me Maybe", "artist": "Carly Rae Jepsen"}
-{"song": "No One", "artist": "Alicia Keys"}
-{"song": "I Will Always Love You", "artist": "Whitney Houston"}
-{"song": "Call Me (Theme From American Gigolo)", "artist": "Blondie"}
-{"song": "TiK ToK", "artist": "Ke$ha"}
-{"song": "The Sign", "artist": "Ace Of Base"}
-{"song": "Royals", "artist": "Lorde"}
-{"song": "The Boy Is Mine", "artist": "Brandy & Monica"}
-{"song": "I Love Rock 'n Roll", "artist": "Joan Jett & the Blackhearts"}
-{"song": "All About That Bass", "artist": "Meghan Trainor"}
-{"song": "Rush Rush", "artist": "Paula Abdul"}
-{"song": "That's What Friends Are For", "artist": "Dionne & Friends"}
-{"song": "Upside Down", "artist": "Diana Ross"}
-{"song": "You're Still The One", "artist": "Shania Twain"}
-{"song": "Hot Stuff", "artist": "Donna Summer"}
-{"song": "You're So Vain", "artist": "Carly Simon"}
-{"song": "Nothing Compares 2 U", "artist": "Sinead O'Connor"}
-{"song": "Family Affair", "artist": "Mary J. Blige"}
-{"song": "Killing Me Softly With His Song", "artist": "Roberta Flack"}
-{"song": "Dark Horse", "artist": "Katy Perry Featuring Juicy J"}
-{"song": "Best Of My Love", "artist": "The Emotions"}
-{"song": "Big Girls Don't Cry", "artist": "Fergie"}
-{"song": "The Way We Were", "artist": "Barbra Streisand"}
-{"song": "Do That To Me One More Time", "artist": "Captain & Tennille"}
-{"song": "Like A Virgin", "artist": "Madonna"}
-{"song": "I Will Survive", "artist": "Gloria Gaynor"}
-{"song": "Bleeding Love", "artist": "Leona Lewis"}
-{"song": "Independent Women Part I", "artist": "Destiny's Child"}
-{"song": "Foolish", "artist": "Ashanti"}
-{"song": "The First Time Ever I Saw Your Face", "artist": "Roberta Flack"}
-{"song": "Someone Like You", "artist": "Adele"}
-{"song": "BECAUSE YOU LOVED ME", "artist": "Celine Dion"}
-{"song": "Shake It Off", "artist": "Taylor Swift"}
-{"song": "Breathe", "artist": "Faith Hill"}
-{"song": "I'm Sorry", "artist": "Brenda Lee"}
-{"song": "Irreplaceable", "artist": "Beyonce"}
-{"song": "Total Eclipse Of The Heart", "artist": "Bonnie Tyler"}
-{"song": "Walk Like An Egyptian", "artist": "The Bangles"}
-{"song": "E.T.", "artist": "Katy Perry Featuring Kanye West"}
-{"song": "To Know Him, Is To Love Him", "artist": "The Teddy Bears"}
-{"song": "Fallin'", "artist": "Alicia Keys"}
-{"song": "Creep", "artist": "TLC"}
-{"song": "Evergreen (Love Theme From \"A Star Is Born\")", "artist": "Barbra Streisand"}
-{"song": "I'm Real", "artist": "Jennifer Lopez Featuring Ja Rule"}
-{"song": "Goodies", "artist": "Ciara Featuring Petey Pablo"}
-{"song": "Waterfalls", "artist": "TLC"}
-{"song": "Boogie Oogie Oogie", "artist": "A Taste Of Honey"}
-{"song": "Woman In Love", "artist": "Barbra Streisand"}
-{"song": "Just Dance", "artist": "Lady Gaga Featuring Colby O'Donis"}
-{"song": "Vogue", "artist": "Madonna"}
-{"song": "Love Takes Time", "artist": "Mariah Carey"}
-{"song": "My Boo", "artist": "Usher And Alicia Keys"}
-{"song": "Baby Boy", "artist": "Beyonce Featuring Sean Paul"}
-{"song": "Firework", "artist": "Katy Perry"}
-{"song": "Vision Of Love", "artist": "Mariah Carey"}
-{"song": "BAD GIRLS", "artist": "Donna Summer"}
-{"song": "Miss You Much", "artist": "Janet Jackson"}
-{"song": "To Sir With Love", "artist": "Lulu"}
-{"song": "Hold On", "artist": "Wilson Phillips"}
-{"song": "Islands In The Stream", "artist": "Kenny Rogers Duet With Dolly Parton"}
-{"song": "You're Makin' Me High", "artist": "Toni Braxton"}
-{"song": "California Gurls", "artist": "Katy Perry Featuring Snoop Dogg"}
-{"song": "Don't Go Breaking My Heart", "artist": "Elton John & Kiki Dee"}
-{"song": "Crazy In Love", "artist": "Beyonce Featuring Jay Z"}
-{"song": "It's Too Late/I Feel The Earth Move", "artist": "Carole King"}
-{"song": "From A Distance", "artist": "Bette Midler"}
-{"song": "ALONE", "artist": "Heart"}
-{"song": "(They Long To Be) Close To You", "artist": "Carpenters"}
-{"song": "Hollaback Girl", "artist": "Gwen Stefani"}
-{"song": "Love Will Keep Us Together", "artist": "Captain & Tennille"}
-{"song": "Fantasy", "artist": "Mariah Carey"}
-{"song": "I Wanna Dance With Somebody (Who Loves Me)", "artist": "Whitney Houston"}
-{"song": "Poker Face", "artist": "Lady Gaga"}
-{"song": "ON MY OWN", "artist": "Patti LaBelle & Michael McDonald"}
-{"song": "Crazy For You", "artist": "Madonna"}
-{"song": "Take A Bow", "artist": "Madonna"}
-{"song": "Love Child", "artist": "Diana Ross & The Supremes"}
-{"song": "What's Love Got To Do With It", "artist": "Tina Turner"}
-{"song": "Midnight Train To Georgia", "artist": "Gladys Knight And The Pips"}
-{"song": "Escapade", "artist": "Janet Jackson"}
-{"song": "Separate Lives", "artist": "Phil Collins and Marilyn Martin"}
-{"song": "Promiscuous", "artist": "Nelly Furtado Featuring Timbaland"}
-{"song": "Ode To Billie Joe", "artist": "Bobbie Gentry"}
-{"song": "Straight Up", "artist": "Paula Abdul"}
-{"song": "Empire State Of Mind", "artist": "Jay-Z + Alicia Keys"}
-{"song": "Half-Breed", "artist": "Cher"}
-{"song": "Emotions", "artist": "Mariah Carey"}
-{"song": "Cruise", "artist": "Florida Georgia Line"}
-{"song": "Walk On By", "artist": "Leroy Van Dyke"}
-{"song": "Wanted", "artist": "Hunter Hayes"}
-{"song": "Take Your Time", "artist": "Sam Hunt"}
-{"song": "There Goes My Everything", "artist": "Jack Greene"}
-{"song": "Love's Gonna Live Here", "artist": "Buck Owens"}
-{"song": "Convoy", "artist": "C.W. McCall"}
-{"song": "Somebody Like You", "artist": "Keith Urban"}
-{"song": "Amazed", "artist": "Lonestar"}
-{"song": "Daddy Sang Bass", "artist": "Johnny Cash"}
-{"song": "Kiss An Angel Good Mornin'", "artist": "Charley Pride"}
-{"song": "Just To See You Smile", "artist": "Tim McGraw"}
-{"song": "Once A Day", "artist": "Connie Smith"}
-{"song": "Need You Now", "artist": "Lady Antebellum"}
-{"song": "Live Like You Were Dying", "artist": "Tim McGraw"}
-{"song": "Luckenbach, Texas (Back To The Basics Of Love)", "artist": "Waylon Jennings"}
-{"song": "19 Somethin'", "artist": "Mark Wills"}
-{"song": "My Hang-Up Is You", "artist": "Freddie Hart"}
-{"song": "It's Your Love", "artist": "Tim McGraw With Faith Hill"}
-{"song": "Check Yes Or No", "artist": "George Strait"}
-{"song": "Rhinestone Cowboy", "artist": "Glen Campbell"}
-{"song": "How Do You Like Me Now?!", "artist": "Toby Keith"}
-{"song": "Here You Come Again", "artist": "Dolly Parton"}
-{"song": "If You're Going Through Hell (Before The Devil Even Knows)", "artist": "Rodney Atkins"}
-{"song": "Chattahoochee", "artist": "Alan Jackson"}
-{"song": "Have Mercy", "artist": "The Judds"}
-{"song": "Don't Let Our Love Start Slippin' Away", "artist": "Vince Gill"}
-{"song": "Heartaches By The Number", "artist": "Ray Price"}
-{"song": "I'Ve Come To Expect It From You", "artist": "George Strait"}
-{"song": "All The Time", "artist": "Jack Greene"}
-{"song": "Give Me Wings", "artist": "Michael Johnson"}
-{"song": "Islands In The Stream", "artist": "Kenny Rogers Duet With Dolly Parton"}
-{"song": "It's Five O'Clock Somewhere", "artist": "Alan Jackson & Jimmy Buffett"}
-{"song": "This Is How We Roll", "artist": "Florida Georgia Line Featuring Luke Bryan"}
-{"song": "Don't Blink", "artist": "Kenny Chesney"}
-{"song": "Mammas Don't Let Your Babies Grow Up To Be Cowboys", "artist": "Sara Evans With Deana Carter"}
-{"song": "Watching You", "artist": "Rodney Atkins"}
-{"song": "Rose Garden", "artist": "Lynn Anderson"}
-{"song": "You're The Only World I Know", "artist": "Sonny James"}
-{"song": "Ain't Nothing 'Bout You", "artist": "Brooks & Dunn"}
-{"song": "I Swear", "artist": "John Michael Montgomery"}
-{"song": "Almost Persuaded", "artist": "David Houston"}
-{"song": "Burnin' It Down", "artist": "Jason Aldean"}
-{"song": "That's What I Love About Sunday", "artist": "Craig Morgan"}
-{"song": "The Good Stuff", "artist": "Kenny Chesney"}
-{"song": "Skip A Rope", "artist": "Henson Cargill"}
-{"song": "Coward Of The County", "artist": "Kenny Rogers"}
-{"song": "Houston (Means I'm One Day Closer To You)", "artist": "Larry Gatlin & The Gatlin Brothers"}
-{"song": "When You Say Nothing At All", "artist": "Keith Whitley"}
-{"song": "Easy Loving", "artist": "Freddie Hart"}
-{"song": "Hello Darlin'", "artist": "Conway Twitty"}
-{"song": "Love Without End, Amen", "artist": "George Strait"}
-{"song": "As Good As I Once Was", "artist": "Toby Keith"}
-{"song": "You'Ve Never Been This Far Before", "artist": "Conway Twitty"}
-{"song": "Wings Of A Dove", "artist": "Ferlin Husky"}
-{"song": "Every Which Way But Loose", "artist": "Eddie Rabbitt"}
-{"song": "Party Time", "artist": "T.G. Sheppard"}
-{"song": "My Maria", "artist": "Brooks & Dunn"}
-{"song": "Why Don't We Just Dance", "artist": "Josh Turner"}
-{"song": "I Like It, I Love It", "artist": "Tim McGraw"}
-{"song": "Achy Breaky Heart", "artist": "Billy Ray Cyrus"}
-{"song": "I'Ll Get Over You", "artist": "Crystal Gayle"}
-{"song": "Country Girl", "artist": "Faron Young"}
-{"song": "Before He Cheats", "artist": "Carrie Underwood"}
-{"song": "Don't Let Me Cross Over", "artist": "Carl Butler & Pearl"}
-{"song": "Giddyup Go", "artist": "Red Sovine"}
-{"song": "Don't Rock The Jukebox", "artist": "Alan Jackson"}
-{"song": "Love, Me", "artist": "Collin Raye"}
-{"song": "Lookin' For Love", "artist": "Johnny Lee"}
-{"song": "Black Sheep", "artist": "John Anderson"}
-{"song": "Big City", "artist": "Merle Haggard"}
-{"song": "Good Morning Beautiful", "artist": "Steve Holy"}
-{"song": "It's Just A Matter Of Time", "artist": "Randy Travis"}
-{"song": "Two Dozen Roses", "artist": "Shenandoah"}
-{"song": "Before You Go", "artist": "Buck Owens"}
-{"song": "If We Make It Through December", "artist": "Merle Haggard"}
-{"song": "My Heart/Silent Night(After The Fight)", "artist": "Ronnie Milsap"}
-{"song": "Die A Happy Man", "artist": "Thomas Rhett"}
-{"song": "There Won't Be Anymore", "artist": "Charlie Rich"}
-{"song": "God Gave Me You", "artist": "Blake Shelton"}
-{"song": "My Heart Skips A Beat", "artist": "Buck Owens"}
-{"song": "", "artist": "Lost In The Fifties Tonight (In The Still Of The Night)"}
-{"song": "Baby, Baby (I Know You're A Lady)", "artist": "David Houston"}
-{"song": "(I'm So) Afraid Of Losing You Again", "artist": "Charley Pride"}
-{"song": "I Fall To Pieces", "artist": "Patsy Cline/Jim Reeves"}
-{"song": "Pickup Man", "artist": "Joe Diffie"}
-{"song": "Just Got Started Lovin' You", "artist": "James Otto"}
-{"song": "Our Song", "artist": "Taylor Swift"}
-{"song": "Girl Crush", "artist": "Little Big Town"}
-{"song": "Killin' Time", "artist": "Clint Black"}
-{"song": "If You Leave Me Tonight I'Ll Cry", "artist": "Jerry Wallace"}
-{"song": "Cry Myself To Sleep", "artist": "The Judds"}
-{"song": "Mind Your Own Business", "artist": "Hank Williams Jr."}
-{"song": "Why Not Me", "artist": "The Judds"}
-{"song": "Breathe", "artist": "Faith Hill"}
-{"song": "You Look So Good In Love", "artist": "George Strait"}
-{"song": "High Cotton", "artist": "Alabama"}
-{"song": "Thinkin' Of A Rendezvous", "artist": "Johnny Duncan"}
-{"song": "This Is It", "artist": "Jim Reeves"}
-{"song": "Good Hearted Woman", "artist": "Waylon & Willie"}
-{"song": "Be Without You", "artist": "Mary J. Blige"}
-{"song": "Thrift Shop", "artist": "Macklemore & Ryan Lewis Featuring Wanz"}
-{"song": "You Make Me Wanna...", "artist": "Usher"}
-{"song": "Sexual Healing", "artist": "Marvin Gaye"}
-{"song": "Nobody's Supposed To Be Here", "artist": "Deborah Cox"}
-{"song": "I Will Always Love You", "artist": "Whitney Houston"}
-{"song": "Pretty Wings", "artist": "Maxwell"}
-{"song": "Blurred Lines", "artist": "Robin Thicke Featuring T.I. + Pharrell"}
-{"song": "Let's Stay Together", "artist": "Al Green"}
-{"song": "The Hills", "artist": "The Weeknd"}
-{"song": "We Belong Together", "artist": "Mariah Carey"}
-{"song": "The Twist", "artist": "Chubby Checker"}
-{"song": "Fortunate", "artist": "Maxwell"}
-{"song": "Too Close", "artist": "Next"}
-{"song": "That Girl", "artist": "Stevie Wonder"}
-{"song": "Tossin' And Turnin'", "artist": "Bobby Lewis"}
-{"song": "Let Me Love You", "artist": "Mario"}
-{"song": "Creep", "artist": "TLC"}
-{"song": "U Know What's Up", "artist": "Donell Jones"}
-{"song": "When Doves Cry", "artist": "Prince"}
-{"song": "Before You Walk Out Of My Life/Like This And Like That", "artist": "Monica"}
-{"song": "Superwoman", "artist": "Karyn White"}
-{"song": "One Dance", "artist": "Drake Featuring WizKid & Kyla"}
-{"song": "Please Mr. Postman", "artist": "The Marvelettes"}
-{"song": "Heaven Sent", "artist": "Keyshia Cole"}
-{"song": "Happy", "artist": "Pharrell Williams"}
-{"song": "I Can't Stop Loving You", "artist": "Ray Charles"}
-{"song": "Lost Without U", "artist": "Robin Thicke"}
-{"song": "Endless Love", "artist": "Diana Ross & Lionel Richie"}
-{"song": "One Nation Under A Groove", "artist": "Funkadelic"}
-{"song": "In My Bed", "artist": "Dru Hill"}
-{"song": "Rock Me Tonight (For Old Times Sake)", "artist": "Freddie Jackson"}
-{"song": "If I Ain't Got You", "artist": "Alicia Keys"}
-{"song": "Rock With You", "artist": "Michael Jackson"}
-{"song": "Baby (You'Ve Got What It Takes)", "artist": "Dinah Washington & Brook Benton"}
-{"song": "Let's Get Married", "artist": "Jagged Edge"}
-{"song": "Billie Jean", "artist": "Michael Jackson"}
-{"song": "When I See U", "artist": "Fantasia"}
-{"song": "Foolish", "artist": "Ashanti"}
-{"song": "It's Just A Matter Of Time", "artist": "Brook Benton"}
-{"song": "Right Here (Human Nature)/Downtown", "artist": "SWV"}
-{"song": "In Da Club", "artist": "50 Cent"}
-{"song": "I Want Her", "artist": "Keith Sweat"}
-{"song": "Can We Talk", "artist": "Tevin Campbell"}
-{"song": "Bump N' Grind", "artist": "R. Kelly"}
-{"song": "Trap Queen", "artist": "Fetty Wap"}
-{"song": "Good Times", "artist": "Chic"}
-{"song": "U Got It Bad", "artist": "Usher"}
-{"song": "Ain't Too Proud To Beg", "artist": "The Temptations"}
-{"song": "Differences", "artist": "Ginuwine"}
-{"song": "Tender Lover", "artist": "Babyface"}
-{"song": "Like You'Ll Never See Me Again", "artist": "Alicia Keys"}
-{"song": "Feel Like Makin' Love", "artist": "Roberta Flack"}
-{"song": "You're Makin' Me High/Let It Flow", "artist": "Toni Braxton"}
-{"song": "Let's Get It On", "artist": "Marvin Gaye"}
-{"song": "Superstition", "artist": "Stevie Wonder"}
-{"song": "It Never Rains (In Southern California)", "artist": "Tony Toni Tone"}
-{"song": "Let's Groove", "artist": "Earth, Wind & Fire"}
-{"song": "Blame It", "artist": "Jamie Foxx Featuring T-Pain"}
-{"song": "This Is How We Do It", "artist": "Montell Jordan"}
-{"song": "On My Own", "artist": "Patti LaBelle & Michael McDonald"}
-{"song": "Disco Lady", "artist": "Johnnie Taylor"}
-{"song": "I Wanna Be Down", "artist": "Brandy"}
-{"song": "Soul Man", "artist": "Sam & Dave"}
-{"song": "I Can't Get Next To You", "artist": "The Temptations"}
-{"song": "Dazz", "artist": "Brick"}
-{"song": "Motivation", "artist": "Kelly Rowland Featuring Lil Wayne"}
-{"song": "Love Makes Things Happen", "artist": "Pebbles"}
-{"song": "Love Me Down", "artist": "Freddie Jackson"}
-{"song": "I Can't Help Myself", "artist": "Four Tops"}
-{"song": "Signed, Sealed, Delivered I'm Yours", "artist": "Stevie Wonder"}
-{"song": "Twisted", "artist": "Keith Sweat"}
-{"song": "Lonely Teardrops", "artist": "Jackie Wilson"}
-{"song": "Can't Be Friends", "artist": "Trey Songz"}
-{"song": "Mr. Big Stuff", "artist": "Jean Knight"}
-{"song": "Fire", "artist": "Ohio Players"}
-{"song": "Un-Thinkable (I'm Ready)", "artist": "Alicia Keys"}
-{"song": "Can't Hold Us", "artist": "Macklemore & Ryan Lewis Featuring Ray Dalton"}
-{"song": "Don't Stop 'til You Get Enough", "artist": "Michael Jackson"}
-{"song": "All Night Long (All Night)", "artist": "Lionel Richie"}
-{"song": "No One", "artist": "Alicia Keys"}
-{"song": "Make It Like It Was", "artist": "Regina Belle"}
-{"song": "Sure Thing", "artist": "Miguel"}
-{"song": "I Heard It Through The Grapevine", "artist": "Marvin Gaye"}
-{"song": "Freak Me", "artist": "Silk"}
-{"song": "Kiss", "artist": "Prince And The Revolution"}
-{"song": "There Goes My Baby", "artist": "Usher"}
-{"song": "Master Blaster (Jammin')", "artist": "Stevie Wonder"}
-{"song": "Get Low", "artist": "Lil Jon & The East Side Boyz Featuring Ying Yang Twins"}
-{"song": "I Heard It Through The Grapevine", "artist": "Gladys Knight And The Pips"}
-{"song": "If Only You Knew", "artist": "Patti LaBelle"}
-{"song": "Too Busy Thinking About My Baby", "artist": "Marvin Gaye"}
-{"song": "Respect", "artist": "Aretha Franklin"}
-{"song": "Here And Now", "artist": "Luther Vandross"}
-{"song": "I'Ll Be Good To You", "artist": "Quincy Jones Featuring Ray Charles & Chaka Khan"}
-{"song": "Celebration", "artist": "Kool & The Gang"}
-{"song": "Hotline Bling", "artist": "Drake"}
-{"song": "Do You Love What You Feel", "artist": "Rufus And Chaka Khan"}
-{"song": "What's Going On", "artist": "Marvin Gaye"}
-{"song": "Always", "artist": "Atlantic Starr"}
-{"song": "Smooth", "artist": "Santana Featuring Rob Thomas"}
-{"song": "Drops Of Jupiter (Tell Me)", "artist": "Train"}
-{"song": "Wherever You Will Go", "artist": "The Calling"}
-{"song": "How To Save A Life", "artist": "The Fray"}
-{"song": "Counting Stars", "artist": "OneRepublic"}
-{"song": "Unwell", "artist": "matchbox twenty"}
-{"song": "I'm Yours", "artist": "Jason Mraz"}
-{"song": "You And Me", "artist": "Lifehouse"}
-{"song": "All For You", "artist": "Sister Hazel"}
-{"song": "Hanging By A Moment", "artist": "Lifehouse"}
-{"song": "Shut Up And Dance", "artist": "WALK THE MOON"}
-{"song": "Bubbly", "artist": "Colbie Caillat"}
-{"song": "Hey, Soul Sister", "artist": "Train"}
-{"song": "Chasing Cars", "artist": "Snow Patrol"}
-{"song": "Ho Hey", "artist": "The Lumineers"}
-{"song": "You Found Me", "artist": "The Fray"}
-{"song": "Slide", "artist": "Goo Goo Dolls"}
-{"song": "Best Day Of My Life", "artist": "American Authors"}
-{"song": "Iris", "artist": "Goo Goo Dolls"}
-{"song": "Why Don't You & I", "artist": "Santana Featuring Alex Band Or Chad Kroeger"}
-{"song": "Love Song", "artist": "Sara Bareilles"}
-{"song": "Everything You Want", "artist": "Vertical Horizon"}
-{"song": "Here Without You", "artist": "3 Doors Down"}
-{"song": "Use Somebody", "artist": "Kings Of Leon"}
-{"song": "Photograph", "artist": "Nickelback"}
-{"song": "Waiting On The World To Change", "artist": "John Mayer"}
-{"song": "The Reason", "artist": "Hoobastank"}
-{"song": "If You're Gone", "artist": "matchbox twenty"}
-{"song": "Rolling In The Deep", "artist": "Adele"}
-{"song": "Don't Speak", "artist": "No Doubt"}
-{"song": "Breakeven", "artist": "The Script"}
-{"song": "Torn", "artist": "Natalie Imbruglia"}
-{"song": "This Love", "artist": "Maroon 5"}
-{"song": "She Will Be Loved", "artist": "Maroon 5"}
-{"song": "Over My Head (Cable Car)", "artist": "The Fray"}
-{"song": "Just Give Me A Reason", "artist": "P!nk Featuring Nate Ruess"}
-{"song": "Shake It Off", "artist": "Taylor Swift"}
-{"song": "Barely Breathing", "artist": "Duncan Sheik"}
-{"song": "Somebody That I Used To Know", "artist": "Gotye Featuring Kimbra"}
-{"song": "Complicated", "artist": "Avril Lavigne"}
-{"song": "", "artist": "3am"}
-{"song": "It's Not Over", "artist": "Daughtry"}
-{"song": "Stronger (What Doesn't Kill You)", "artist": "Kelly Clarkson"}
-{"song": "One Headlight", "artist": "The Wallflowers"}
-{"song": "Who Knew", "artist": "P!nk"}
-{"song": "Home", "artist": "Phillip Phillips"}
-{"song": "Bad Day", "artist": "Daniel Powter"}
-{"song": "Let Her Go", "artist": "Passenger"}
-{"song": "Gotta Be Somebody", "artist": "Nickelback"}
-{"song": "Bent", "artist": "matchbox twenty"}
-{"song": "In My Feelings", "artist": "Drake"}
-{"song": "I Like It", "artist": "Cardi B, Bad Bunny & J Balvin"}
-{"song": "Girls Like You", "artist": "Maroon 5 Featuring Cardi B"}
-{"song": "Nice For What", "artist": "Drake"}
-{"song": "Lucid Dreams", "artist": "Juice WRLD"}
-{"song": "Psycho", "artist": "Post Malone Featuring Ty Dolla $ign"}
-{"song": "Boo'd Up", "artist": "Ella Mai"}
-{"song": "No Tears Left To Cry", "artist": "Ariana Grande"}
-{"song": "God's Plan", "artist": "Drake"}
-{"song": "Better Now", "artist": "Post Malone"}
-{"song": "The Middle", "artist": "Zedd, Maren Morris & Grey"}
-{"song": "Yes Indeed", "artist": "Lil Baby & Drake"}
-{"song": "Meant To Be", "artist": "Bebe Rexha & Florida Georgia Line"}
-{"song": "Sad!", "artist": "XXXTENTACION"}
-{"song": "Taste", "artist": "Tyga Featuring Offset"}
-{"song": "Delicate", "artist": "Taylor Swift"}
-{"song": "Perfect", "artist": "Ed Sheeran"}
-{"song": "Friends", "artist": "Marshmello & Anne-Marie"}
-{"song": "Love Lies", "artist": "Khalid & Normani"}
-{"song": "Mine", "artist": "Bazzi"}
-{"song": "7 Rings", "artist": "Ariana Grande"}
-{"song": "Middle Child", "artist": "J. Cole"}
-{"song": "Sunflower (Spider-Man: Into The Spider-Verse)", "artist": "Post Malone & Swae Lee"}
-{"song": "Without Me", "artist": "Halsey"}
-{"song": "Sicko Mode", "artist": "Travis Scott"}
-{"song": "Wow.", "artist": "Post Malone"}
-{"song": "Drip Too Hard", "artist": "Lil Baby & Gunna"}
-{"song": "Going Bad", "artist": "Meek Mill Featuring Drake"}
-{"song": "Thank U, Next", "artist": "Ariana Grande"}
-{"song": "Mo Bamba", "artist": "Sheck Wes"}
-{"song": "Happier", "artist": "Marshmello & Bastille"}
-{"song": "Thotiana", "artist": "Blueface"}
-{"song": "ZEZE", "artist": "Kodak Black Featuring Travis Scott & Offset"}
-{"song": "Money", "artist": "Cardi B"}
-{"song": "Wake Up In The Sky", "artist": "Gucci Mane X Bruno Mars X Kodak Black"}
-{"song": "Baby Shark", "artist": "Pinkfong"}
-{"song": "A Lot", "artist": "21 Savage"}
-{"song": "Leave Me Alone", "artist": "Flipp Dinero"}
-{"song": "Lucid Dreams", "artist": "Juice WRLD"}
-{"song": "Envy Me", "artist": "Calboy"}
-{"song": "Swervin", "artist": "A Boogie Wit da Hoodie Featuring 6ix9ine"}
-{"song": "High Hopes", "artist": "Panic! At The Disco"}
-{"song": "Look Back At It", "artist": "A Boogie Wit da Hoodie"}
-{"song": "Girls Like You", "artist": "Maroon 5 Featuring Cardi B"}
-{"song": "Better Now", "artist": "Post Malone"}
-{"song": "Eastside", "artist": "benny blanco, Halsey & Khalid"}
-{"song": "Better", "artist": "Khalid"}
-{"song": "Taki Taki", "artist": "DJ Snake Featuring Selena Gomez, Ozuna & Cardi B"}
-{"song": "MIA", "artist": "Bad Bunny Featuring Drake"}
-{"song": "Sad!", "artist": "XXXTENTACION"}
-{"song": "Moonlight", "artist": "XXXTENTACION"}
-{"song": "In My Feelings", "artist": "Drake"}
-{"song": "Pure Cocaine", "artist": "Lil Baby"}
-{"song": "Dancing With A Stranger", "artist": "Sam Smith & Normani"}
-{"song": "Believer", "artist": "Imagine Dragons"}
-{"song": "Taste", "artist": "Tyga Featuring Offset"}
-{"song": "First Off", "artist": "Future Featuring Travis Scott"}
-{"song": "Sweet But Psycho", "artist": "Ava Max"}
-{"song": "God's Plan", "artist": "Drake"}
-{"song": "Nonstop", "artist": "Drake"}
-{"song": "Youngblood", "artist": "5 Seconds Of Summer"}
-{"song": "Armed And Dangerous", "artist": "Juice WRLD"}
-{"song": "I Like It", "artist": "Cardi B, Bad Bunny & J Balvin"}
-{"song": "Despacito", "artist": "Luis Fonsi & Daddy Yankee Featuring Justin Bieber"}
-{"song": "Shallow", "artist": "Lady Gaga & Bradley Cooper"}
-{"song": "Calling My Spirit", "artist": "Kodak Black"}
-{"song": "Perfect", "artist": "Ed Sheeran"}
-{"song": "Saturday Nights", "artist": "Khalid & Kane Brown"}
-{"song": "Twerk", "artist": "City Girls Featuring Cardi B"}
-{"song": "Keanu Reeves", "artist": "Logic"}
+[
+	{"song": "Be Without You", "artist": "Mary J. Blige"},
+	{"song": "Be Without You", "artist": "Mary J. Blige"},
+	{"song": "Thrift Shop", "artist": "Macklemore & Ryan Lewis Featuring Wanz"},
+	{"song": "You Make Me Wanna...", "artist": "Usher"},
+	{"song": "Sexual Healing", "artist": "Marvin Gaye"},
+	{"song": "Nobody's Supposed To Be Here", "artist": "Deborah Cox"},
+	{"song": "I Will Always Love You", "artist": "Whitney Houston"},
+	{"song": "Pretty Wings", "artist": "Maxwell"},
+	{"song": "Blurred Lines", "artist": "Robin Thicke Featuring T.I. + Pharrell"},
+	{"song": "Let's Stay Together", "artist": "Al Green"},
+	{"song": "The Hills", "artist": "The Weeknd"},
+	{"song": "We Belong Together", "artist": "Mariah Carey"},
+	{"song": "The Twist", "artist": "Chubby Checker"},
+	{"song": "Fortunate", "artist": "Maxwell"},
+	{"song": "Too Close", "artist": "Next"},
+	{"song": "That Girl", "artist": "Stevie Wonder"},
+	{"song": "Tossin' And Turnin'", "artist": "Bobby Lewis"},
+	{"song": "Let Me Love You", "artist": "Mario"},
+	{"song": "Creep", "artist": "TLC"},
+	{"song": "U Know What's Up", "artist": "Donell Jones"},
+	{"song": "When Doves Cry", "artist": "Prince"},
+	{"song": "Before You Walk Out Of My Life/Like This And Like That", "artist": "Monica"},
+	{"song": "Superwoman", "artist": "Karyn White"},
+	{"song": "One Dance", "artist": "Drake Featuring WizKid & Kyla"},
+	{"song": "Please Mr. Postman", "artist": "The Marvelettes"},
+	{"song": "Heaven Sent", "artist": "Keyshia Cole"},
+	{"song": "Happy", "artist": "Pharrell Williams"},
+	{"song": "I Can't Stop Loving You", "artist": "Ray Charles"},
+	{"song": "Lost Without U", "artist": "Robin Thicke"},
+	{"song": "Endless Love", "artist": "Diana Ross & Lionel Richie"},
+	{"song": "One Nation Under A Groove", "artist": "Funkadelic"},
+	{"song": "In My Bed", "artist": "Dru Hill"},
+	{"song": "Rock Me Tonight (For Old Times Sake)", "artist": "Freddie Jackson"},
+	{"song": "If I Ain't Got You", "artist": "Alicia Keys"},
+	{"song": "Rock With You", "artist": "Michael Jackson"},
+	{"song": "Baby (You'Ve Got What It Takes)", "artist": "Dinah Washington & Brook Benton"},
+	{"song": "Let's Get Married", "artist": "Jagged Edge"},
+	{"song": "Billie Jean", "artist": "Michael Jackson"},
+	{"song": "When I See U", "artist": "Fantasia"},
+	{"song": "Foolish", "artist": "Ashanti"},
+	{"song": "It's Just A Matter Of Time", "artist": "Brook Benton"},
+	{"song": "Right Here (Human Nature)/Downtown", "artist": "SWV"},
+	{"song": "In Da Club", "artist": "50 Cent"},
+	{"song": "I Want Her", "artist": "Keith Sweat"},
+	{"song": "Can We Talk", "artist": "Tevin Campbell"},
+	{"song": "Bump N' Grind", "artist": "R. Kelly"},
+	{"song": "Trap Queen", "artist": "Fetty Wap"},
+	{"song": "Good Times", "artist": "Chic"},
+	{"song": "U Got It Bad", "artist": "Usher"},
+	{"song": "Ain't Too Proud To Beg", "artist": "The Temptations"},
+	{"song": "Differences", "artist": "Ginuwine"},
+	{"song": "Tender Lover", "artist": "Babyface"},
+	{"song": "Like You'Ll Never See Me Again", "artist": "Alicia Keys"},
+	{"song": "Feel Like Makin' Love", "artist": "Roberta Flack"},
+	{"song": "You're Makin' Me High/Let It Flow", "artist": "Toni Braxton"},
+	{"song": "Let's Get It On", "artist": "Marvin Gaye"},
+	{"song": "Superstition", "artist": "Stevie Wonder"},
+	{"song": "It Never Rains (In Southern California)", "artist": "Tony Toni Tone"},
+	{"song": "Let's Groove", "artist": "Earth, Wind & Fire"},
+	{"song": "Blame It", "artist": "Jamie Foxx Featuring T-Pain"},
+	{"song": "This Is How We Do It", "artist": "Montell Jordan"},
+	{"song": "On My Own", "artist": "Patti LaBelle & Michael McDonald"},
+	{"song": "Disco Lady", "artist": "Johnnie Taylor"},
+	{"song": "I Wanna Be Down", "artist": "Brandy"},
+	{"song": "Soul Man", "artist": "Sam & Dave"},
+	{"song": "I Can't Get Next To You", "artist": "The Temptations"},
+	{"song": "Dazz", "artist": "Brick"},
+	{"song": "Motivation", "artist": "Kelly Rowland Featuring Lil Wayne"},
+	{"song": "Love Makes Things Happen", "artist": "Pebbles"},
+	{"song": "Love Me Down", "artist": "Freddie Jackson"},
+	{"song": "I Can't Help Myself", "artist": "Four Tops"},
+	{"song": "Signed, Sealed, Delivered I'm Yours", "artist": "Stevie Wonder"},
+	{"song": "Twisted", "artist": "Keith Sweat"},
+	{"song": "Lonely Teardrops", "artist": "Jackie Wilson"},
+	{"song": "Can't Be Friends", "artist": "Trey Songz"},
+	{"song": "Mr. Big Stuff", "artist": "Jean Knight"},
+	{"song": "Fire", "artist": "Ohio Players"},
+	{"song": "Un-Thinkable (I'm Ready)", "artist": "Alicia Keys"},
+	{"song": "Can't Hold Us", "artist": "Macklemore & Ryan Lewis Featuring Ray Dalton"},
+	{"song": "Don't Stop 'til You Get Enough", "artist": "Michael Jackson"},
+	{"song": "All Night Long (All Night)", "artist": "Lionel Richie"},
+	{"song": "No One", "artist": "Alicia Keys"},
+	{"song": "Make It Like It Was", "artist": "Regina Belle"},
+	{"song": "Sure Thing", "artist": "Miguel"},
+	{"song": "I Heard It Through The Grapevine", "artist": "Marvin Gaye"},
+	{"song": "Freak Me", "artist": "Silk"},
+	{"song": "Kiss", "artist": "Prince And The Revolution"},
+	{"song": "There Goes My Baby", "artist": "Usher"},
+	{"song": "Master Blaster (Jammin')", "artist": "Stevie Wonder"},
+	{"song": "Get Low", "artist": "Lil Jon & The East Side Boyz Featuring Ying Yang Twins"},
+	{"song": "I Heard It Through The Grapevine", "artist": "Gladys Knight And The Pips"},
+	{"song": "If Only You Knew", "artist": "Patti LaBelle"},
+	{"song": "Too Busy Thinking About My Baby", "artist": "Marvin Gaye"},
+	{"song": "Respect", "artist": "Aretha Franklin"},
+	{"song": "Here And Now", "artist": "Luther Vandross"},
+	{"song": "I'Ll Be Good To You", "artist": "Quincy Jones Featuring Ray Charles & Chaka Khan"},
+	{"song": "Celebration", "artist": "Kool & The Gang"},
+	{"song": "Hotline Bling", "artist": "Drake"},
+	{"song": "Do You Love What You Feel", "artist": "Rufus And Chaka Khan"},
+	{"song": "What's Going On", "artist": "Marvin Gaye"},
+	{"song": "Always", "artist": "Atlantic Starr"},
+	{"song": "Uprising", "artist": "Muse"},
+	{"song": "Uprising", "artist": "Muse"},
+	{"song": "Savior", "artist": "Rise Against"},
+	{"song": "Feel It Still", "artist": "Portugal. The Man"},
+	{"song": "Madness", "artist": "Muse"},
+	{"song": "The Pretender", "artist": "Foo Fighters"},
+	{"song": "Radioactive", "artist": "Imagine Dragons"},
+	{"song": "First", "artist": "Cold War Kids"},
+	{"song": "Hemorrhage (In My Hands)", "artist": "Fuel"},
+	{"song": "Cuts You Up", "artist": "Peter Murphy"},
+	{"song": "Drive", "artist": "Incubus"},
+	{"song": "Sweater Weather", "artist": "The Neighbourhood"},
+	{"song": "Sex And Candy", "artist": "Marcy Playground"},
+	{"song": "Do I Wanna Know?", "artist": "Arctic Monkeys"},
+	{"song": "When I Come Around", "artist": "Green Day"},
+	{"song": "How You Remind Me", "artist": "Nickelback"},
+	{"song": "My Own Worst Enemy", "artist": "Lit"},
+	{"song": "Lightning Crashes", "artist": "Live"},
+	{"song": "Wonderwall", "artist": "Oasis"},
+	{"song": "It's Been Awhile", "artist": "Staind"},
+	{"song": "Stolen Dance", "artist": "Milky Chance"},
+	{"song": "Smells Like Teen Spirit", "artist": "Nirvana"},
+	{"song": "Boulevard Of Broken Dreams", "artist": "Green Day"},
+	{"song": "Feel Good Inc", "artist": "Gorillaz"},
+	{"song": "Come A Little Closer", "artist": "Cage The Elephant"},
+	{"song": "So Alive", "artist": "Love And Rockets"},
+	{"song": "Mysterious Ways", "artist": "U2"},
+	{"song": "Regret", "artist": "New Order"},
+	{"song": "Tighten Up", "artist": "The Black Keys"},
+	{"song": "Blurry", "artist": "Puddle Of Mudd"},
+	{"song": "Pumped Up Kicks", "artist": "Foster The People"},
+	{"song": "In The End", "artist": "Linkin Park"},
+	{"song": "1901", "artist": "Phoenix"},
+	{"song": "Lay Me Down", "artist": "The Dirty Heads Featuring Rome"},
+	{"song": "Fascination Street", "artist": "The Cure"},
+	{"song": "Good", "artist": "Better Than Ezra"},
+	{"song": "Scar Tissue", "artist": "Red Hot Chili Peppers"},
+	{"song": "Believer", "artist": "Imagine Dragons"},
+	{"song": "Renegades", "artist": "X Ambassadors"},
+	{"song": "Zombie", "artist": "The Cranberries"},
+	{"song": "Kryptonite", "artist": "3 Doors Down"},
+	{"song": "Paralyzer", "artist": "Finger Eleven"},
+	{"song": "Pompeii", "artist": "Bastille"},
+	{"song": "Sex On Fire", "artist": "Kings Of Leon"},
+	{"song": "What It's Like", "artist": "Everlast"},
+	{"song": "1979", "artist": "The Smashing Pumpkins"},
+	{"song": "All My Life", "artist": "Foo Fighters"},
+	{"song": "Safe And Sound", "artist": "Capital Cities"},
+	{"song": "Kiss Them For Me", "artist": "Siouxsie & The Banshees"},
+	{"song": "Pepper", "artist": "Butthole Surfers"},
+	{"song": "Demons", "artist": "Imagine Dragons"},
+	{"song": "Numb", "artist": "Linkin Park"},
+	{"song": "Inside Out", "artist": "Eve 6"},
+	{"song": "By The Way", "artist": "Red Hot Chili Peppers"},
+	{"song": "Been Caught Stealing", "artist": "Jane's Addiction"},
+	{"song": "Headstrong", "artist": "Trapt"},
+	{"song": "Into Your Arms", "artist": "The Lemonheads"},
+	{"song": "What I've Done", "artist": "Linkin Park"},
+	{"song": "What I Got", "artist": "Sublime"},
+	{"song": "Dani California", "artist": "Red Hot Chili Peppers"},
+	{"song": "Rush", "artist": "Big Audio"},
+	{"song": "Animal", "artist": "Neon Trees"},
+	{"song": "Otherside", "artist": "Red Hot Chili Peppers"},
+	{"song": "Last Resort", "artist": "Papa Roach"},
+	{"song": "Orange Crush", "artist": "R.E.M."},
+	{"song": "Proud To Fall", "artist": "Ian McCulloch"},
+	{"song": "Losing My Religion", "artist": "R.E.M."},
+	{"song": "Somebody That I Used To Know", "artist": "Gotye Featuring Kimbra"},
+	{"song": "Name", "artist": "Goo Goo Dolls"},
+	{"song": "Love And Anger", "artist": "Kate Bush"},
+	{"song": "Laid", "artist": "James"},
+	{"song": "Seven Nation Army", "artist": "The White Stripes"},
+	{"song": "Feel Good Drag", "artist": "Anberlin"},
+	{"song": "Stressed Out", "artist": "twenty one pilots"},
+	{"song": "Hanging By A Moment", "artist": "Lifehouse"},
+	{"song": "Wish I Knew You", "artist": "The Revivalists"},
+	{"song": "The Mayor Of Simpleton", "artist": "XTC"},
+	{"song": "So Far Away", "artist": "Staind"},
+	{"song": "Ho Hey", "artist": "The Lumineers"},
+	{"song": "It's Time", "artist": "Imagine Dragons"},
+	{"song": "Santa Monica (Watch The World Die)", "artist": "Everclear"},
+	{"song": "Best Of You", "artist": "Foo Fighters"},
+	{"song": "Faint", "artist": "Linkin Park"},
+	{"song": "Fake It", "artist": "Seether"},
+	{"song": "You're Gonna Go Far, Kid", "artist": "The Offspring"},
+	{"song": "More", "artist": "Sisters Of Mercy"},
+	{"song": "Animal I Have Become", "artist": "Three Days Grace"},
+	{"song": "I Will Wait", "artist": "Mumford & Sons"},
+	{"song": "Down", "artist": "311"},
+	{"song": "Interstate Love Song", "artist": "Stone Temple Pilots"},
+	{"song": "The Hand That Feeds", "artist": "Nine Inch Nails"},
+	{"song": "Wish You Were Here", "artist": "Incubus"},
+	{"song": "Charlotte Anne", "artist": "Julian Cope"},
+	{"song": "Standing Outside A Broken Phone Booth...", "artist": "Primitive Radio Gods"},
+	{"song": "Friday I'm In Love", "artist": "The Cure"},
+	{"song": "Use Somebody", "artist": "Kings Of Leon"},
+	{"song": "Steam", "artist": "Peter Gabriel"},
+	{"song": "All The Small Things", "artist": "Blink-182"},
+	{"song": "Walkin' On The Sun", "artist": "Smash Mouth"},
+	{"song": "Walk", "artist": "Foo Fighters"},
+	{"song": "My Friends", "artist": "Red Hot Chili Peppers"},
+	{"song": "Loser", "artist": "Beck"},
+	{"song": "Little Black Submarines", "artist": "The Black Keys"},
+	{"song": "Only", "artist": "Nine Inch Nails"},
+	{"song": "Semi-Charmed Life", "artist": "Third Eye Blind"},
+	{"song": "Riptide", "artist": "Vance Joy"},
+	{"song": "Feed The Tree", "artist": "Belly"},
+	{"song": "Fall Down", "artist": "Toad The Wet Sprocket"},
+	{"song": "Out Of My League", "artist": "Fitz And The Tantrums"},
+	{"song": "Waiting For The End", "artist": "Linkin Park"},
+	{"song": "Right Here, Right Now", "artist": "Jesus Jones"},
+	{"song": "You Oughta Know", "artist": "Alanis Morissette"},
+	{"song": "Tomorrow", "artist": "Silverchair"},
+	{"song": "Lonely Boy", "artist": "The Black Keys"},
+	{"song": "The Devil You Know", "artist": "Jesus Jones"},
+	{"song": "Like A Stone", "artist": "Audioslave"},
+	{"song": "Panic Switch", "artist": "Silversun Pickups"},
+	{"song": "(If You're Wondering If I Want You To) I...", "artist": "Weezer"},
+	{"song": "Tomorrow", "artist": "Morrissey"},
+	{"song": "Heathens", "artist": "twenty one pilots"},
+	{"song": "Swallowed", "artist": "Bush"},
+	{"song": "Glycerine", "artist": "Bush"},
+	{"song": "Fly Away", "artist": "Lenny Kravitz"},
+	{"song": "Trouble", "artist": "Cage The Elephant"},
+	{"song": "Basket Case", "artist": "Green Day"},
+	{"song": "Dangerous", "artist": "Big Data Featuring Joywave"},
+	{"song": "Never There", "artist": "Cake"},
+	{"song": "Everything Zen", "artist": "Bush"},
+	{"song": "Not Sleeping Around", "artist": "Ned's Atomic Dustbin"},
+	{"song": "Closing Time", "artist": "Semisonic"},
+	{"song": "The Middle", "artist": "Jimmy Eat World"},
+	{"song": "Fly", "artist": "Sugar Ray"},
+	{"song": "Shake Me Down", "artist": "Cage The Elephant"},
+	{"song": "I'll Be You", "artist": "The Replacements"},
+	{"song": "Shut Up And Dance", "artist": "WALK THE MOON"},
+	{"song": "No One Knows", "artist": "Queens Of The Stone Age"},
+	{"song": "Hit", "artist": "The Sugarcubes"},
+	{"song": "I Feel You", "artist": "Depeche Mode"},
+	{"song": "Rope", "artist": "Foo Fighters"},
+	{"song": "Dirty Blvd.", "artist": "Lou Reed"},
+	{"song": "Ophelia", "artist": "The Lumineers"},
+	{"song": "Stand", "artist": "R.E.M."},
+	{"song": "Broken", "artist": "lovelytheband"},
+	{"song": "Selling The Drama", "artist": "Live"},
+	{"song": "Welcome To The Black Parade", "artist": "My Chemical Romance"},
+	{"song": "Until She Comes", "artist": "The Psychedelic Furs"},
+	{"song": "Way Down We Go", "artist": "Kaleo"},
+	{"song": "Movin' On Up", "artist": "Primal Scream"},
+	{"song": "Desire", "artist": "U2"},
+	{"song": "Lump", "artist": "The Presidents Of The United States Of America"},
+	{"song": "The Great Commandment", "artist": "Camouflage"},
+	{"song": "Never Enough", "artist": "The Cure"},
+	{"song": "Way Down Now", "artist": "World Party"},
+	{"song": "(I Hate) Everything About You", "artist": "Three Days Grace"},
+	{"song": "Tongue Tied", "artist": "Grouplove"},
+	{"song": "Comedown", "artist": "Bush"},
+	{"song": "Policy Of Truth", "artist": "Depeche Mode"},
+	{"song": "Re-arranged", "artist": "Limp Bizkit"},
+	{"song": "Counting Blue Cars", "artist": "Dishwalla"},
+	{"song": "The Diary Of Jane", "artist": "Breaking Benjamin"},
+	{"song": "Miss Murder", "artist": "AFI"},
+	{"song": "Pork And Beans", "artist": "Weezer"},
+	{"song": "DOA", "artist": "Foo Fighters"},
+	{"song": "Sit Next To Me", "artist": "Foster The People"},
+	{"song": "Ironic", "artist": "Alanis Morissette"},
+	{"song": "The Way", "artist": "Fastball"},
+	{"song": "Cannonball", "artist": "The Breeders"},
+	{"song": "Second Chance", "artist": "Shinedown"},
+	{"song": "Mountain Sound", "artist": "Of Monsters And Men"},
+	{"song": "Peek-A-Boo", "artist": "Siouxsie & The Banshees"},
+	{"song": "Crawling In The Dark", "artist": "Hoobastank"},
+	{"song": "Come With Me Now", "artist": "KONGOS"},
+	{"song": "The Sound Of Winter", "artist": "Bush"},
+	{"song": "Through Glass", "artist": "Stone Sour"},
+	{"song": "Pets", "artist": "Porno For Pyros"},
+	{"song": "What's My Age Again?", "artist": "Blink-182"},
+	{"song": "The Chemicals Between Us", "artist": "Bush"},
+	{"song": "All Apologies", "artist": "Nirvana"},
+	{"song": "The More You Ignore Me, The Closer I Get", "artist": "Morrissey"},
+	{"song": "Black Hole Sun", "artist": "Soundgarden"},
+	{"song": "In The Meantime", "artist": "Spacehog"},
+	{"song": "Drive", "artist": "R.E.M."},
+	{"song": "So You Think You're In Love", "artist": "Robyn Hitchcock"},
+	{"song": "The Killing Jar", "artist": "Siouxsie & The Banshees"},
+	{"song": "Longview", "artist": "Green Day"},
+	{"song": "Every Morning", "artist": "Sugar Ray"},
+	{"song": "I Don't Care", "artist": "Apocalyptica Featuring Adam Gontier"},
+	{"song": "Mr. Brightside", "artist": "The Killers"},
+	{"song": "Novocaine For The Soul", "artist": "eels"},
+	{"song": "Come Out And Play (Keep 'Em Separated)", "artist": "The Offspring"},
+	{"song": "Nothing Compares 2 U", "artist": "Sinead O'Connor"},
+	{"song": "Digging In The Dirt", "artist": "Peter Gabriel"},
+	{"song": "Cold", "artist": "Crossfade"},
+	{"song": "Sail", "artist": "AWOLNATION"},
+	{"song": "Little Talks", "artist": "Of Monsters And Men"},
+	{"song": "Give It Away", "artist": "Red Hot Chili Peppers"},
+	{"song": "Megalomaniac", "artist": "Incubus"},
+	{"song": "Higher", "artist": "Creed"},
+	{"song": "Iris", "artist": "Goo Goo Dolls"},
+	{"song": "Connection", "artist": "Elastica"},
+	{"song": "Trippin' On A Hole In A Paper Heart", "artist": "Stone Temple Pilots"},
+	{"song": "Send The Pain Below", "artist": "Chevelle"},
+	{"song": "Pain", "artist": "Jimmy Eat World"},
+	{"song": "Joey", "artist": "Concrete Blonde"},
+	{"song": "God", "artist": "Tori Amos"},
+	{"song": "Just Like You", "artist": "Three Days Grace"},
+	{"song": "The Emperor's New Clothes", "artist": "Sinead O'Connor"},
+	{"song": "Metropolis", "artist": "The Church"},
+	{"song": "Live Forever", "artist": "Oasis"},
+	{"song": "Schism", "artist": "Tool"},
+	{"song": "Veronica", "artist": "Elvis Costello"},
+	{"song": "Gold On The Ceiling", "artist": "The Black Keys"},
+	{"song": "Ex's & Oh's", "artist": "Elle King"},
+	{"song": "Champagne Supernova", "artist": "Oasis"},
+	{"song": "Soul To Squeeze (From \"Coneheads\")", "artist": "Red Hot Chili Peppers"},
+	{"song": "About A Girl", "artist": "Nirvana"},
+	{"song": "These Are Days", "artist": "10,000 Maniacs"},
+	{"song": "Daughter/Yellow Ledbetter", "artist": "Pearl Jam"},
+	{"song": "So Cold", "artist": "Breaking Benjamin"},
+	{"song": "Natural One (From \"Kids\")", "artist": "Folk Implosion"},
+	{"song": "Far Gone And Out", "artist": "The Jesus And Mary Chain"},
+	{"song": "Heart-Shaped Box", "artist": "Nirvana"},
+	{"song": "Better Man", "artist": "Pearl Jam"},
+	{"song": "Found Out About You", "artist": "Gin Blossoms"},
+	{"song": "Mother Mother", "artist": "Tracy Bonham"},
+	{"song": "Never Too Late", "artist": "Three Days Grace"},
+	{"song": "Break It Down Again", "artist": "Tears For Fears"},
+	{"song": "Brain Stew/Jaded", "artist": "Green Day"},
+	{"song": "Somewhere I Belong", "artist": "Linkin Park"},
+	{"song": "Here's Where The Story Ends", "artist": "The Sundays"},
+	{"song": "Loser", "artist": "3 Doors Down"},
+	{"song": "No Rain", "artist": "Blind Melon"},
+	{"song": "Let It Die", "artist": "Foo Fighters"},
+	{"song": "Get The Message", "artist": "Electronic"},
+	{"song": "Come Anytime", "artist": "Hoodoo Gurus"},
+	{"song": "Bleed It Out", "artist": "Linkin Park"},
+	{"song": "Ride", "artist": "twenty one pilots"},
+	{"song": "New Divide", "artist": "Linkin Park"},
+	{"song": "Fever", "artist": "The Black Keys"},
+	{"song": "Face Down", "artist": "The Red Jumpsuit Apparatus"},
+	{"song": "Everything To Everyone", "artist": "Everclear"},
+	{"song": "Whatever It Takes", "artist": "Imagine Dragons"},
+	{"song": "Weirdo", "artist": "The Charlatans"},
+	{"song": "What's The Frequency, Kenneth?", "artist": "R.E.M."},
+	{"song": "Blues From A Gun", "artist": "The Jesus And Mary Chain"},
+	{"song": "See The Lights", "artist": "Simple Minds"},
+	{"song": "Creep", "artist": "Radiohead"},
+	{"song": "Love Song", "artist": "The Cure"},
+	{"song": "Trojans", "artist": "Atlas Genius"},
+	{"song": "Cough Syrup", "artist": "Young The Giant"},
+	{"song": "Breaking The Habit", "artist": "Linkin Park"},
+	{"song": "Walking In My Shoes", "artist": "Depeche Mode"},
+	{"song": "Perfect Situation", "artist": "Weezer"},
+	{"song": "Burden In My Hand", "artist": "Soundgarden"},
+	{"song": "The Ballad Of Peter Pumpkinhead", "artist": "XTC"},
+	{"song": "Possum Kingdom", "artist": "Toadies"},
+	{"song": "Stupid Girl", "artist": "Garbage"},
+	{"song": "Enjoy The Silence", "artist": "Depeche Mode"},
+	{"song": "Beverly Hills", "artist": "Weezer"},
+	{"song": "Merry Go Round", "artist": "The Replacements"},
+	{"song": "Mmm Mmm Mmm Mmm", "artist": "Crash Test Dummies"},
+	{"song": "The Kill (Bury Me)", "artist": "Thirty Seconds To Mars"},
+	{"song": "Icky Thump", "artist": "The White Stripes"},
+	{"song": "One", "artist": "Creed"},
+	{"song": "One Step Closer", "artist": "Linkin Park"},
+	{"song": "Shimmer", "artist": "Fuel"},
+	{"song": "Blood Makes Noise", "artist": "Suzanne Vega"},
+	{"song": "Learn To Fly", "artist": "Foo Fighters"},
+	{"song": "Bullet With Butterfly Wings", "artist": "The Smashing Pumpkins"},
+	{"song": "Self Esteem", "artist": "The Offspring"},
+	{"song": "Resistance", "artist": "Muse"},
+	{"song": "Bang And Blame", "artist": "R.E.M."},
+	{"song": "Spiderwebs", "artist": "No Doubt"},
+	{"song": "Hold Me, Thrill Me, Kiss Me, Kill Me", "artist": "U2"},
+	{"song": "Slide", "artist": "Goo Goo Dolls"},
+	{"song": "Disappointed", "artist": "Public Image Ltd."},
+	{"song": "Time Of Your Life (Good Riddance)", "artist": "Green Day"},
+	{"song": "Holiday", "artist": "Green Day"},
+	{"song": "American Idiot", "artist": "Green Day"},
+	{"song": "Always", "artist": "Saliva"},
+	{"song": "Salvation", "artist": "The Cranberries"},
+	{"song": "You Know You're Right", "artist": "Nirvana"},
+	{"song": "Wasteland", "artist": "10 Years"},
+	{"song": "House", "artist": "The Psychedelic Furs"},
+	{"song": "Steady, As She Goes", "artist": "The Raconteurs"},
+	{"song": "Thunder", "artist": "Imagine Dragons"},
+	{"song": "High", "artist": "The Cure"},
+	{"song": "Aerials", "artist": "System Of A Down"},
+	{"song": "Jealous", "artist": "Gene Loves Jezebel"},
+	{"song": "Mr. Jones", "artist": "Counting Crows"},
+	{"song": "Bitter Sweet Symphony", "artist": "The Verve"},
+	{"song": "Love Shack", "artist": "The B-52s"},
+	{"song": "The Other Side Of Summer", "artist": "Elvis Costello"},
+	{"song": "December", "artist": "Collective Soul"},
+	{"song": "Anna-Molly", "artist": "Incubus"},
+	{"song": "Vitamin R (Leading Us Along)", "artist": "Chevelle"},
+	{"song": "One Week", "artist": "Barenaked Ladies"},
+	{"song": "She Drives Me Crazy", "artist": "Fine Young Cannibals"},
+	{"song": "What I Am", "artist": "Edie Brickell & New Bohemians"},
+	{"song": "Celebrity Skin", "artist": "Hole"},
+	{"song": "One", "artist": "U2"},
+	{"song": "Love Theory", "artist": "Kirk Franklin"},
+	{"song": "Love Theory", "artist": "Kirk Franklin"},
+	{"song": "Won't He Do It", "artist": "Koryn Hawthorne"},
+	{"song": "It's Yours", "artist": "Jekalyn Carr"},
+	{"song": "Forever", "artist": "Jason Nelson"},
+	{"song": "No Ordinary Worship", "artist": "Kelontae Gavin"},
+	{"song": "Victory", "artist": "Fred Jerkins Featuring Last Call"},
+	{"song": "Never Alone", "artist": "Tori Kelly Featuring Kirk Franklin"},
+	{"song": "Nobody Like You Lord", "artist": "Maranda Curtis"},
+	{"song": "All Of My Life", "artist": "Erica Campbell X Warryn Campbell"},
+	{"song": "Pour Your Oil", "artist": "Joshua Rogers"},
+	{"song": "Unstoppable", "artist": "Koryn Hawthorne"},
+	{"song": "My God", "artist": "Nashville Life Music Featuring Mr. Talkbox"},
+	{"song": "Deliver Me (This Is My Exodus)", "artist": "Donald Lawrence Presents The Tri-City Singers Featuring Le'Andria Johnson"},
+	{"song": "Potter", "artist": "Tamela Mann"},
+	{"song": "Open The Floodgates", "artist": "Demetrius West & Jesus Promoters Featuring Karen Hoskins"},
+	{"song": "Laughter (Just Like A Medicine)", "artist": "BeBe Winans"},
+	{"song": "This Is A Move", "artist": "Tasha Cobbs Leonard"},
+	{"song": "Everything Will Be Alright", "artist": "Isaiah Templeton"},
+	{"song": "War Cry", "artist": "Queen Naija"},
+	{"song": "I Made It Out", "artist": "John P. Kee Featuring Zacardi Cortez"},
+	{"song": "Open Your Mouth And Say Something", "artist": "Brent Jones"},
+	{"song": "Promises", "artist": "Jason McGee + The Choir Featuring Lena Byrd Miles"},
+	{"song": "I'm Ready", "artist": "G.I."},
+	{"song": "Good Love", "artist": "David & Tamela Mann"},
+	{"song": "You Know My Name (Live)", "artist": "Tasha Cobbs Leonard"},
+	{"song": "You Say", "artist": "Lauren Daigle"},
+	{"song": "You Say", "artist": "Lauren Daigle"},
+	{"song": "God Only Knows", "artist": "for KING & COUNTRY"},
+	{"song": "Who You Say I Am", "artist": "Hillsong Worship"},
+	{"song": "Only Jesus", "artist": "Casting Crowns"},
+	{"song": "Look Up Child", "artist": "Lauren Daigle"},
+	{"song": "Best News Ever", "artist": "MercyMe"},
+	{"song": "Stand In Your Love", "artist": "Josh Baldwin"},
+	{"song": "Maybe It's Ok", "artist": "We Are Messengers"},
+	{"song": "Red Letters", "artist": "Crowder"},
+	{"song": "Known", "artist": "Tauren Wells"},
+	{"song": "Resurrecting", "artist": "Elevation Worship"},
+	{"song": "Survivor", "artist": "Zach Williams"},
+	{"song": "Build My Life", "artist": "Pat Barrett"},
+	{"song": "Haven't Seen It Yet", "artist": "Danny Gokey"},
+	{"song": "Scars", "artist": "I AM THEY"},
+	{"song": "Raise A Hallelujah", "artist": "Bethel Music, Jonathan David Helser & Melissa Helser"},
+	{"song": "Head Above Water", "artist": "Avril Lavigne"},
+	{"song": "Well Done", "artist": "The Afters"},
+	{"song": "Church (Take Me Back)", "artist": "Cochren & Co."},
+	{"song": "Changed", "artist": "Jordan Feliz"},
+	{"song": "Greatness Of Our God", "artist": "newsboys"},
+	{"song": "Till I Found You", "artist": "Phil Wickham"},
+	{"song": "Prize Worth Fighting For", "artist": "Jamie Kimmett"},
+	{"song": "Symphony", "artist": "Switch Featuring Dillon Chase"},
+	{"song": "Alive", "artist": "Big Daddy Weave"},
+	{"song": "As You Find Me", "artist": "Hillsong UNITED"},
+	{"song": "Is He Worthy?", "artist": "Chris Tomlin"},
+	{"song": "Goodness Of God (Live)", "artist": "Bethel Music & Jenn Johnson"},
+	{"song": "Whole Heart (Hold Me Now)", "artist": "Hillsong UNITED"},
+	{"song": "Good Grace", "artist": "Hillsong UNITED"},
+	{"song": "Mercy Is A Song", "artist": "Matthew West"},
+	{"song": "Awakening", "artist": "Amanda Lindsey Cook"},
+	{"song": "Surrounded (Fight My Battles)", "artist": "UPPERROOM"},
+	{"song": "Echo", "artist": "Elevation Worship Featuring Tauren Wells"},
+	{"song": "Nothing Else", "artist": "Cody Carnes"},
+	{"song": "Yes I Will", "artist": "Vertical Worship"},
+	{"song": "With Lifted Hands", "artist": "Ryan Stevenson"},
+	{"song": "Waymaker", "artist": "Michael W. Smith Featuring Vanessa Campagna & Madelyn Berry"},
+	{"song": "Love Lifting Me", "artist": "Tasha Layton"},
+	{"song": "Ain't No Grave (Live)", "artist": "Bethel Music & Molly Skaggs"},
+	{"song": "Freedom", "artist": "Jesus Culture Featuring Kim Walker-Smith"},
+	{"song": "Get Out My Way", "artist": "Tedashii Featuring Lecrae"},
+	{"song": "My Defender", "artist": "Jeremy Camp"},
+	{"song": "Spirit Lead Me", "artist": "Influence Music & Michael Ketterer"},
+	{"song": "Burn The Ships", "artist": "for KING & COUNTRY"},
+	{"song": "Gold", "artist": "Apollo LTD"},
+	{"song": "Stand In Your Love (Recorded Live)", "artist": "Bethel Music"},
+	{"song": "Rebel Heart", "artist": "Lauren Daigle"},
+	{"song": "Native Tongue", "artist": "Switchfoot"},
+	{"song": "Your Wings", "artist": "Lauren Daigle"}
+]
