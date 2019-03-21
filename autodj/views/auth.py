@@ -1,92 +1,118 @@
+import json
 import functools
 import requests
-import datetime
+import base64
+import urllib.parse
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
 )
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
+bp.config = {}
+
+# Spotify URLs
+SPOTIFY_AUTH_URL = 'https://accounts.spotify.com/authorize'
+SPOTIFY_TOKEN_URL = 'https://accounts.spotify.com/api/token'
+SPOTIFY_API_BASE_URL = 'https://api.spotify.com'
+API_VERSION = 'v1'
+SPOTIFY_API_URL = '{}/{}'.format(SPOTIFY_API_BASE_URL, API_VERSION)
+USER_URL = '{}/{}'.format(SPOTIFY_API_URL, 'me')
+
+# Server-side Parameters
+CLIENT_SIDE_URL = 'http://127.0.0.1'
+PORT = 5000
+REDIRECT_URI = '{}:{}/auth/callback/q'.format(CLIENT_SIDE_URL, PORT)
+SCOPE = 'playlist-modify-public playlist-modify-private'
 
 
-@bp.route('/login')
+@bp.record
+def record_params(setup_state):
+    """
+    Overload record method to fetch the config parameters of the Flask app.
+    This method is run when this blueprint is registered with the app.
+    """
+    app = setup_state.app
+    bp.config = dict([(key, value) for (key, value) in app.config.items()])
+
+
+@bp.route('/login', methods=('GET', 'POST'))
 def login():
-    if request.method == 'GET':
-        error = request.args.get('error') # if there is an error
-        # not sure if this is correct error handling
-        if error is not None:
-            flash(error)
+    if request.method == 'POST':
 
-        code = request.args.get('code') # auth code that can be exchanged for access token
-        url = 'https://accounts.spotify.com/api/token'
-        grant_type = 'authorization_code'
-        redirect_uri = 'http://127.0.0.1:5000/auth/login'
-        client_id = 'dee71a70880043d799fb3beeb6622a9d' # not secure
-        client_secret = 'd1f58af1e702408082984a99ec18f5f6' # not secure
-
-        data = {
-            'code': code,
-            'grant_type': grant_type,
-            'redirect_uri': redirect_uri,
-            'client_id': client_id,
-            'client_secret': client_secret
+        auth_query_parameters = {
+            'response_type': 'code',
+            'redirect_uri': REDIRECT_URI,
+            'scope': SCOPE,
+            'client_id': bp.config['CLIENT_ID']
         }
-        response = requests.post(url, data=data).json()
-        access_token = response['access_token']
-        expires_in = response['expires_in']
-        expiration = datetime.datetime.now() + datetime.timedelta(seconds=expires_in)
-        refresh_token = response['refresh_token'] # can repeat steps above with this as 'code' to get new access token once expired
 
-        # not sure if this is right
-        session.clear()
-        session['access_token'] = access_token
-        session['expiration'] = expiration
-        session['expires_in'] = expires_in # should probs extrapolate this into a Date\
-        session['refresh_token'] = refresh_token
+        # Spotify authorization
+        url_args = '&'.join(['{}={}'.format(key, urllib.parse.quote(value))
+                             for key, value
+                             in auth_query_parameters.items()])
+        auth_url = '{}/?{}'.format(SPOTIFY_AUTH_URL, url_args)
+        return redirect(auth_url)
 
-        # also get relevant user info
-        user_url = "https://api.spotify.com/v1/me"
-        headers = {
-            'Authorization': 'Bearer ' + access_token,
-        }
-        user_response = requests.get(user_url, headers=headers).json()
-        session['user_id'] = user_response['id']
-
-        return redirect(url_for('index'))
-
-    # if request.method == 'POST':
-    #     username = request.form['username']
-    #     password = request.form['password']
-    #     error = 'error'
-    #     user = None
-    #
-    #     # todo: login with spotify api
-    #
-    #     if error is None:
-    #         # user's id is stored in a new session
-    #         session.clear()
-    #         session['user_id'] = user['id']
-    #         return redirect(url_for('index'))
-    #
-    #     # error is shown to the user if authentication fails
-    #     flash(error)
-
-    # login page is shown when the user initially navigates to auth/login or there was authentication error
+    # login page is shown when the user initially navigates to auth/login
     return render_template('auth/login.html')
+
+
+@bp.route('/callback/q')
+def callback():
+    """
+    After the user accepts, or denied the request,
+    the Spotify Accounts service redirects the user back to the specified REDIRECT_URI
+    """
+    # check if Spotify authorization failed
+    error = request.args.get('error')
+
+    if error is not None:
+        # error is shown to the user if authentication fails
+        flash(error)
+        # show the login page again if there was authentication error
+        return render_template('auth/login.html')
+
+    # request refresh and access tokens
+    auth_token = request.args['code']
+    code_payload = {
+        'grant_type': 'authorization_code',
+        'code': str(auth_token),
+        'redirect_uri': REDIRECT_URI
+    }
+    base64encoded = base64.b64encode('{}:{}'.format(bp.config['CLIENT_ID'], bp.config['CLIENT_SECRET']).encode()).decode()
+    headers = {'Authorization': 'Basic {}'.format(base64encoded)}
+    post_request = requests.post(SPOTIFY_TOKEN_URL, data=code_payload, headers=headers)
+
+    # tokens are returned to the app
+    response_data = json.loads(post_request.text)
+    access_token = response_data['access_token']
+    refresh_token = response_data['refresh_token']
+    token_type = response_data['token_type']
+    expires_in = response_data['expires_in']
+
+    # store tokens in the session
+    session.clear()
+    session['access_token'] = access_token
+    session['refresh_token'] = refresh_token
+    session['token_type'] = token_type
+    session['expires_in'] = expires_in
+
+    # also get relevant user info
+    headers = {'Authorization': 'Bearer {}'.format(access_token)}
+    user_response = requests.get(USER_URL, headers=headers).json()
+    session['user_id'] = user_response['id']
+
+    return redirect(url_for('main.index'))
 
 
 @bp.before_app_request
 def load_logged_in_user():
     """
-    If a user id is stored in the session, store user on g.user;
-    If there is no user id, or if the id doesn't exist, g.user will be None
+    If an access token is stored in the session, store token on g.token;
+    If there is no access token, or if the token doesn't exist, g.token will be None
     """
-    user_id = session.get('user_id')
-
-    if user_id is None:
-        g.user = None
-    else:
-        pass  # todo: get user from spotify
+    g.token = session.get('access_token')
 
 
 @bp.route('/logout')
@@ -99,12 +125,12 @@ def logout():
 def login_required(view):
     """
     This decorator returns a new view function that wraps the original view it's applied to.
-    The new function checks if a user is loaded and redirects to the login page otherwise.
-    If a user is loaded, the original view is called and continues normally.
+    The new function checks if an access token is loaded and redirects to the login page otherwise.
+    If a token is loaded, the original view is called and continues normally.
     """
     @functools.wraps(view)
     def wrapped_view(**kwargs):
-        if g.user is None:
+        if g.token is None:
             return redirect(url_for('auth.login'))
 
         return view(**kwargs)

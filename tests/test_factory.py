@@ -1,12 +1,9 @@
 import pytest
-import base64
-import sys
-import json
 import requests
 from flask import url_for
 from autodj import create_app, session
 
-default_user =  {'username': 'test', 'email': 'foxemasomu@webmail24.top', 'password': 'qwerty123'}
+default_user = {'username': 'test', 'email': 'foxemasomu@webmail24.top', 'password': 'qwerty123'}
 refresh_url = 'https://accounts.spotify.com/api/token'
 
 default_user_refresh_token = 'AQCpOSeTeZEY5JOJzFXbvrzpqQpjRLYpmEDxcdiC-bblDhB3yhiER2Azmd2COQ-uLj6vgockdOYoTybV9kjJpEXeWhVj8P330g-b2PE8qGZJUYYMHxK7r519m1W3mcb_3qFWJw'
@@ -22,12 +19,14 @@ def app():
     app.secret_key = 'd1f58af1e702408082984a99ec18f5f6'
     return app
 
+
 def client():
     with app.test_client() as client:
         with client.session_transaction() as session:
             session['Authorization'] = 'redacted'
         print(session) # will be populated SecureCookieSession
         yield client
+
 
 # @pytest.fixture
 def auth():
@@ -57,10 +56,12 @@ def auth():
 
     return session
 
+
 def test_get_root_page(client):
     # Tests for 302 code since root page currently redirects to Spotify
     index_page = client.get(url_for('index'))
     assert index_page.status_code == 302
+
 
 def test_access_token(client):
     with client.session_transaction() as session:
@@ -85,6 +86,7 @@ def test_access_token(client):
 #             playlist_post = client.post(url_for('playlist.playlist'), data=data)
 #
 #             print(playlist_post)
+
 
 def test_post_empty_songs_playlist(client):
     assert 1
