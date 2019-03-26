@@ -22,17 +22,29 @@ window.onload = function() {
     const topic = document.getElementById('topicName').value;
     document.getElementById('topicName').value = '';
     
-    if (topic === '') {
-      return
+    var scrubbedInput = JSON.stringify(topic).replace(/[^\w\s]/gi, '')
+
+    if (scrubbedInput === '') {
+      return;
     }
+
+    var input = scrubbedInput.split(" ")
 
     document.getElementById('playlist-text').innerText = 'Creating a playlist...'
 
+    var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03"
+
     if (activated) {
-      var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&filter=enriched_lyrics.sentiment.document.label%3A%3A\"" + moods[output].toLowerCase() + "\"&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22";
-    } else {
-      var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(topic) + "%22%7Clyrics%3A%22" + encodeURI(topic) + "%22";
-    } 
+      fullURL = fullURL + "&filter=enriched_lyrics.sentiment.document.label%3A%3A\"" + moods[output].toLowerCase() + "\"";
+    }
+    
+    for (i = 0; i < input.length; i++) {
+      if(i == 0) { 
+        fullURL = fullURL + "&query=enriched_lyrics.concepts.text%3A%22" + encodeURI(input[i]) + "%22%7Clyrics%3A%22" + encodeURI(input[i]) + "%22";
+      } else {
+        fullURL = fullURL + "%7Cenriched_lyrics.concepts.text%3A%22" + encodeURI(input[i]) + "%22%7Clyrics%3A%22" + encodeURI(input[i]) + "%22";
+      }
+    }
 
     $.ajax({
       url: fullURL,
