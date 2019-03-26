@@ -50,7 +50,7 @@ window.onload = function() {
           document.getElementById('playlist-text').innerHTML = output;
         } else {
           $.post({
-            url: "http://127.0.0.1:5000/playlist/",
+            url: "http://127.0.0.1:5000/playlist",
             data: {
               'songs': JSON.stringify(songs),
               'topic': topic,

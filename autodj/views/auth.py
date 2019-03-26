@@ -3,6 +3,7 @@ import functools
 import requests
 import base64
 import urllib.parse
+import datetime
 
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, session, url_for
@@ -90,6 +91,7 @@ def callback():
     refresh_token = response_data['refresh_token']
     token_type = response_data['token_type']
     expires_in = response_data['expires_in']
+    expiration = datetime.datetime.now() + datetime.timedelta(seconds=expires_in)
 
     # store tokens in the session
     session.clear()
@@ -97,6 +99,7 @@ def callback():
     session['refresh_token'] = refresh_token
     session['token_type'] = token_type
     session['expires_in'] = expires_in
+    session['expiration'] = expiration
 
     # also get relevant user info
     headers = {'Authorization': 'Bearer {}'.format(access_token)}
@@ -113,6 +116,7 @@ def load_logged_in_user():
     If there is no access token, or if the token doesn't exist, g.token will be None
     """
     g.token = session.get('access_token')
+    g.expiration = session.get('expiration')
 
 
 @bp.route('/logout')
@@ -130,7 +134,7 @@ def login_required(view):
     """
     @functools.wraps(view)
     def wrapped_view(**kwargs):
-        if g.token is None:
+        if g.token is None or g.expiration is None or (g.expiration is not None and datetime.datetime.now() >= g.expiration):
             return redirect(url_for('auth.login'))
 
         return view(**kwargs)
