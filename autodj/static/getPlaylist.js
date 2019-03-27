@@ -23,6 +23,7 @@ window.onload = function() {
     document.getElementById('topicName').value = '';
     
     var scrubbedInput = JSON.stringify(topic).replace(/[^\w\s]/gi, '')
+    scrubbedInput = scrubbedInput.replace(/_/g, '')
 
     if (scrubbedInput === '') {
       return;
@@ -65,7 +66,7 @@ window.onload = function() {
             url: "http://127.0.0.1:5000/playlist",
             data: {
               'songs': JSON.stringify(songs),
-              'topic': topic,
+              'topic': scrubbedInput,
             },
             success: function (result) {
               parsed = JSON.parse(result);
