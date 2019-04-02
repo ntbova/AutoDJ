@@ -13,10 +13,9 @@
 </head>
 <body>
 <div id="mainpage" class="container">
-    <div class="row">
+    <div id="top-panel" class="row">
         <div id="header" class="col-sm">
-            <img class="spotify-logo" src="{{ url_for('static', filename='spotify-logo.png') }}">
-            <h1>AutoDJ</h1>
+            <img class="spotify-logo" src="{{ url_for('static', filename='adjlogo-coloring.png') }}">
         </div>
     </div>
     {% for message in get_flashed_messages() %}
