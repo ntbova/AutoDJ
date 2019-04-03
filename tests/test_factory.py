@@ -1,7 +1,8 @@
 import pytest
 import requests
-from flask import url_for
-from autodj import create_app, session
+import sys
+from flask import url_for, session, request, Flask
+from autodj import create_app
 
 default_user = {'username': 'test', 'email': 'foxemasomu@webmail24.top', 'password': 'qwerty123'}
 refresh_url = 'https://accounts.spotify.com/api/token'
@@ -11,7 +12,7 @@ client_id = 'dee71a70880043d799fb3beeb6622a9d' # not secure
 client_secret = 'd1f58af1e702408082984a99ec18f5f6' # not secure
 
 
-@pytest.fixture
+@pytest.fixture(scope='session')
 def app():
     app = create_app()
     app.config.from_pyfile('config.py', silent=True)
@@ -19,17 +20,17 @@ def app():
     app.secret_key = 'd1f58af1e702408082984a99ec18f5f6'
     return app
 
-
-def client():
+@pytest.fixture(scope='function')
+def client(app):
     with app.test_client() as client:
         with client.session_transaction() as session:
             session['Authorization'] = 'redacted'
-        print(session) # will be populated SecureCookieSession
+            auth(session)
         yield client
 
 
 # @pytest.fixture
-def auth():
+def auth(session):
     data = {
         'grant_type': 'refresh_token',
         'refresh_token': default_user_refresh_token,
@@ -54,8 +55,6 @@ def auth():
     user_response = requests.get(user_url, headers=headers).json()
     session['user_id'] = user_response['id']
 
-    return session
-
 
 def test_get_root_page(client):
     # Tests for 302 code since root page currently redirects to Spotify
@@ -65,27 +64,25 @@ def test_get_root_page(client):
 
 def test_access_token(client):
     with client.session_transaction() as session:
-        session = auth()
         assert session.get('access_token') is not None
         assert session.get('token_type') is not None
         assert session.get('scope') is not None
         assert session.get('expires_in') is not None
 
-# def test_post_valid_songs_war_playlist(client):
-#     with client.session_transaction() as session:
-#         session = auth()
-#         with open(sys.path[0] + '/valid_songs.json') as vs:
-#             # valid_songs = json.load(vs)
-#             valid_songs = vs.readlines()
-#             data = {
-#                 'songs': valid_songs,
-#                 'topic': 'War'
-#             }
-#             print(session.get('access_token'))
-#
-#             playlist_post = client.post(url_for('playlist.playlist'), data=data)
-#
-#             print(playlist_post)
+
+def test_post_valid_songs_war_playlist(client):
+
+    with open(sys.path[0] + '/valid_songs.json') as vs:
+        # valid_songs = json.load(vs)
+        valid_songs = vs.readlines()
+        data = {
+            'songs': valid_songs,
+            'topic': 'War'
+        }
+
+    playlist_post = client.post(url_for('main.playlist'), data=data)
+
+    assert playlist_post is not None
 
 
 def test_post_empty_songs_playlist(client):
