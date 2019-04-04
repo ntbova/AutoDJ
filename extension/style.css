@@ -1,5 +1,8 @@
 body {
-    background-color: #1ED760;
+    background-color: white;
+    color: black;
+    /* background: rgb(42,174,0);
+    background: linear-gradient(90deg, rgba(42,174,0,1) 0%, rgba(0,224,34,1) 38%, rgba(17,255,0,1) 100%); */
 }
 
 .spotify-logo {
@@ -12,8 +15,18 @@ body {
     margin-top: 15px;
 }
 
+#mood {
+  margin-top: 20px;
+  margin-left:20px;
+}
+
+#top-panel {
+  background-color: #FFFFFF;
+}
+
 #input {
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 #spotify-player {
@@ -47,7 +60,6 @@ body {
     float: right;
     display: inline-block;
     margin-left: 5px;
->>>>>>> Stashed changes
 }
 
 /* The slider itself */
