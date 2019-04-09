@@ -24,7 +24,7 @@ USER_URL = '{}/{}'.format(SPOTIFY_API_URL, 'me')
 CLIENT_SIDE_URL = 'http://127.0.0.1'
 PORT = 5000
 REDIRECT_URI = '{}:{}/auth/callback/q'.format(CLIENT_SIDE_URL, PORT)
-SCOPE = 'playlist-modify-public playlist-modify-private'
+SCOPE = 'playlist-modify-public playlist-modify-private user-modify-playback-state'
 
 
 @bp.record

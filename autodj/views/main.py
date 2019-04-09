@@ -15,6 +15,44 @@ bp = Blueprint('main', __name__)
 def index():
     return render_template('main/index.html')
 
+@bp.route('/song', methods=(["POST"]))
+def song():
+    access_token = session.get('access_token')
+
+    songs = json.loads(request.form['songs'])
+    # topic = request.form['topic']
+
+    tracks_to_add = []
+
+    search_url = "https://api.spotify.com/v1/search"
+    item_type = "track"
+    headers = {
+        "Authorization": "Bearer " + access_token
+    }
+
+    for song in songs:
+        search_query = "track:" + song['song'] + " artist:" + song['artist']
+        params = {
+            "q": search_query,
+            "type": item_type,
+        }
+        song_response = requests.get(search_url, params=params, headers=headers)
+        song_response = song_response.json()
+        if len(song_response['tracks']['items']) > 0:
+            uri = song_response['tracks']['items'][0]['uri'] # get uri of first result
+            tracks_to_add.append(uri)
+
+    play_url = "https://api.spotify.com/v1/me/player/play"
+    body = {
+        "uris": tracks_to_add
+    }
+    play_response = requests.put(url=play_url, json=body, headers=headers).json()
+
+    return Response(
+        status=200,
+        response=json.dumps(play_response)
+        )
+    
 
 @bp.route('/playlist', methods=(["POST"]))
 def playlist():
