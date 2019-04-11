@@ -26,7 +26,7 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 		const data = {
 			"url": tab.url,
 			"features": {
-				"categories": {
+				"concepts": {
 					"limit": 3
 				}
 			}
@@ -43,8 +43,9 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 			console.log("No response: ", response);
 			return;
 		}
+		console.log("CONCEPTS: ", response.concepts)
 	
-		const categories = response.categories;
+		const categories = response.concepts;
 
 		if(!categories) {
 			console.log("No categories in response");
@@ -53,8 +54,8 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 
 		// random concept from the categories
 		const index = Math.floor(Math.random() * categories.length);
-		console.log("Concept to use: ", categories[0].label);
-		const topic = categories[0].label;
+		console.log("Concept to use: ", categories);//[index].text);
+		const topic = categories;//[index].text;
 
 		//var slashes = JSON.stringify(topic).replace('/', ' ')
 		var scrubbedInput = JSON.stringify(topic).replace(/[^\w\s]/gi, ' ')
