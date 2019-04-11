@@ -17,9 +17,11 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 
 	if(tab.url) {
 		if(tab.url == currentUrl) {
+			console.log("url is same as previous!");
 			return;
 		}
 		currentUrl = tab.url;
+		console.log("Set currentUrl to " + tab.url);
 		// get concepts from this page
 		const data = {
 			"url": tab.url,
@@ -37,21 +39,37 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 		}).then(response => response.json())
 		.catch(error => console.log("Error: ", error))
 
+		if(!response) {
+			console.log("No response: ", response);
+			return;
+		}
+	
 		const categories = response.categories;
-		console.log(categories);
+
+		if(!categories) {
+			console.log("No categories in response");
+			return;
+		}
 
 		// random concept from the categories
 		const index = Math.floor(Math.random() * categories.length);
-		console.log("Concept to use: ", categories[index].label);
-		const topic = categories[index].label;
+		console.log("Concept to use: ", categories[0].label);
+		const topic = categories[0].label;
 
-		var scrubbedInput = JSON.stringify(topic).replace(/[^\w\s]/gi, '')
+		//var slashes = JSON.stringify(topic).replace('/', ' ')
+		var scrubbedInput = JSON.stringify(topic).replace(/[^\w\s]/gi, ' ')
 
     if (scrubbedInput === '') {
       return;
     }
 
-    var input = scrubbedInput.split(" ")
+    var preInput = scrubbedInput.split(" ")
+
+		const lameWords = [" ", "", "and"]
+		const input = preInput.filter(function(value, index, arr){
+			return !lameWords.includes(value)
+		})
+		console.log("input without lame words: ", input);
 
 		var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03"
     
@@ -93,13 +111,7 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
           });
         }
       },
-
     });
-
-		// get one song for category
-		// if song playing a song, add to queue
-		// else play the song
-
 	} else {
 		console.log("No url present");
 	}

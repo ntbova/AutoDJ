@@ -1,6 +1,6 @@
 import json
 import requests
-
+from random import randint
 from flask import (
     Blueprint, Response, render_template, request, session
 )
@@ -30,27 +30,38 @@ def song():
         "Authorization": "Bearer " + access_token
     }
 
-    for song in songs:
-        search_query = "track:" + song['song'] + " artist:" + song['artist']
-        params = {
-            "q": search_query,
-            "type": item_type,
-        }
-        song_response = requests.get(search_url, params=params, headers=headers)
-        song_response = song_response.json()
-        if len(song_response['tracks']['items']) > 0:
-            uri = song_response['tracks']['items'][0]['uri'] # get uri of first result
-            tracks_to_add.append(uri)
+    song = songs[randint(0, len(songs)-1)]
+    search_query = "track:" + song['song'] + " artist:" + song['artist']
+    params = {
+        "q": search_query,
+        "type": item_type,
+    }
+    song_response = requests.get(search_url, params=params, headers=headers)
+    song_response = song_response.json()
+    if len(song_response['tracks']['items']) > 0:
+        uri = song_response['tracks']['items'][0]['uri'] # get uri of first result
+        tracks_to_add.append(uri)
+
+    # for song in songs:
+    #     search_query = "track:" + song['song'] + " artist:" + song['artist']
+    #     params = {
+    #         "q": search_query,
+    #         "type": item_type,
+    #     }
+    #     song_response = requests.get(search_url, params=params, headers=headers)
+    #     song_response = song_response.json()
+    #     if len(song_response['tracks']['items']) > 0:
+    #         uri = song_response['tracks']['items'][0]['uri'] # get uri of first result
+    #         tracks_to_add.append(uri)
 
     play_url = "https://api.spotify.com/v1/me/player/play"
     body = {
         "uris": tracks_to_add
     }
-    play_response = requests.put(url=play_url, json=body, headers=headers).json()
-
+    play_response = requests.put(url=play_url, json=body, headers=headers)
     return Response(
         status=200,
-        response=json.dumps(play_response)
+        response=json.dumps({"play_response": "" + song['song'] + " by " + song['artist']})
         )
     
 
