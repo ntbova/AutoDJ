@@ -1,7 +1,8 @@
 import pytest
 import requests
 import sys
-from flask import url_for, session, request, Flask
+import json
+from flask import url_for, session, request, Flask, jsonify, Response
 from autodj import create_app
 
 default_user = {'username': 'test', 'email': 'foxemasomu@webmail24.top', 'password': 'qwerty123'}
@@ -28,8 +29,6 @@ def client(app):
             auth(session)
         yield client
 
-
-# @pytest.fixture
 def auth(session):
     data = {
         'grant_type': 'refresh_token',
@@ -61,13 +60,18 @@ def test_get_root_page(client):
     index_page = client.get(url_for('index'))
     assert index_page.status_code == 302
 
+def test_session_store(client):
+    with client.session_transaction() as session:
+        assert session.get('refresh_token') == default_user_refresh_token
 
-def test_access_token(client):
+
+def test_auth_session(client):
     with client.session_transaction() as session:
         assert session.get('access_token') is not None
         assert session.get('token_type') is not None
         assert session.get('scope') is not None
         assert session.get('expires_in') is not None
+        assert session.get('user_id') is not None
 
 
 def test_post_valid_songs_war_playlist(client):
@@ -81,9 +85,8 @@ def test_post_valid_songs_war_playlist(client):
         }
 
     playlist_post = client.post(url_for('main.playlist'), data=data)
+    response = playlist_post.get_json(force=True)
 
-    assert playlist_post is not None
-
-
-def test_post_empty_songs_playlist(client):
-    assert 1
+    assert response is not None
+    assert response['status'] is 200
+    assert response['embed_link'] is not None
