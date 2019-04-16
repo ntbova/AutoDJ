@@ -66,11 +66,20 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 
     var preInput = scrubbedInput.split(" ")
 
-		const lameWords = [" ", "", "and"]
+		// extra words that are given as a result of concepts
+		const lameWords = [" ", "", "and", "relevance", "dbpedia_resource",
+		"http", "dbpedia", "org", "resource", "text", ""];
+
+		// filter out lame words and numbers
 		const input = preInput.filter(function(value, index, arr){
-			return !lameWords.includes(value)
+			return (isNaN(value) && !lameWords.includes(value))
 		})
 		console.log("input without lame words: ", input);
+
+		if(!input) {
+			console.log("No relevant inputs.")
+			return;
+		}
 
 		var fullURL = "https://gateway-wdc.watsonplatform.net/discovery/api/v1/environments/4b24f2d8-d802-4b28-bec2-bc4104ebb8b4/collections/60f87acf-22e1-4677-aae7-23645d3beccd/query?version=2018-12-03"
     
