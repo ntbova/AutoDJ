@@ -88,6 +88,49 @@ Where *user* is the user to be logged on to on the server. This step may ask for
 We will begin with modules, which can be run Ad-Hoc in the command line.
 
 ### **Modules**
-Modules 
+Modules contain a series of commands with arguments that then run on either local or remote machines. For example, there exists pre-built modules that allow you to ping all of your existing servers.
+
+```
+ansible servers -m ping
+```
+
+...or to send a command to reboot all of your databases
+
+```
+ansible databases -m command -a "reboot"
+```
+
+In the previous case, you use the command module with the argument 'reboot' that is used across all hosts labeled as 'databases'. All of the modules can be individually run Ad-Hoc from the command line, and additional modules can be written in Python and used as needed.  
 
 ### **Playbooks**
+Playbooks allow users to set the configuration, deployment, and modules to be run one remote systems. They are expressed in a YAML format, and can be configured to setup different configurations depending on the type of remote environment being deployed to. Each configuration is considered a 'play'
+in the 'playbook'.
+
+For example, you may have a set of webservers that must be initialized to the same environment.
+
+```
+- hosts: webservers
+  remote_user: root
+
+  tasks:
+  - name: write hosts file
+    template:
+      src: /etc/aloy.j2
+      dest: ~/.ssh/hosts.conf
+  - name: ensure all dependencies are installed
+      shell: pacman -Syy
+```
+
+You could then, in this same playbook, have a separate set of configurations that will deploy to your databases.
+
+```
+- hosts: databases
+  remote_user: root
+
+  tasks:
+  - name: install sqlite3
+	  shell: pacman -S sqlite3
+```
+
+Each task executes a module with specific arguments. Anything previously set in 'etc/ansible/hosts' will be recognized when hosts inside the YAML file are defined. All listed tasks are executed in order against all listed machines. Playbooks also provide for methods of privliege escalation using "become", "become_method" and "become_user" keywords. These can allow for tasks that require superuser access on remote devices.
+
