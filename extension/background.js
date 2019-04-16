@@ -68,15 +68,15 @@ chrome.tabs.onUpdated.addListener(async function(tabId, changeInfo, tab) {
 
 		// extra words that are given as a result of concepts
 		const lameWords = [" ", "", "and", "relevance", "dbpedia_resource",
-		"http", "dbpedia", "org", "resource", "text", ""];
+		"http", "dbpedia", "org", "resource", "text", "of", "in", "the"];
 
 		// filter out lame words and numbers
 		const input = preInput.filter(function(value, index, arr){
 			return (isNaN(value) && !lameWords.includes(value))
 		})
-		console.log("input without lame words: ", input);
+		console.log("input without filler words: ", input);
 
-		if(!input) {
+		if(input.length == 0) {
 			console.log("No relevant inputs.")
 			return;
 		}
